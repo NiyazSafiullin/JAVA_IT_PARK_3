@@ -8,5 +8,6 @@ class Program {
 		System.out.println(sumresult);
 		System.out.println("111");
 		System.out.println("1211");
+		System.out.println("1211");
 	}
 }
