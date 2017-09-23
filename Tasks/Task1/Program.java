@@ -6,5 +6,7 @@ class Program {
 		int y=scanner.nextInt();
 		int sumresult= x+y;
 		System.out.println(sumresult);
+		System.out.println("111");
+		System.out.println("1211");
 	}
 }
