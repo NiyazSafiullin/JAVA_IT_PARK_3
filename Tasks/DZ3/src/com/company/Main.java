@@ -31,8 +31,9 @@ public class Main {
         System.out.println();
           //Пункт 3-4 ДЗ
         System.out.println("3-4 пункта ДЗ");
+        System.out.println("Введите элементы массива ");
         for (int i = 0; i < Array.length; i++) {
-            //Array[i] = scanner.nextInt();
+            Array[i] = scanner.nextInt();
             k = i;
             if (k % 2 == 0) {
                 summh = summh + 1;
@@ -65,17 +66,19 @@ public class Main {
         // Пункт 7 ДЗ
         System.out.println("Введите элементы массива ");
 
-        for (int i = 0; i < Array.length-1; i++) {
+        for (int i = 0; i < Array.length; i++) {
             Array[i] = scanner.nextInt();
 
             if (Array[i] == 0) {
 
-                Array[i] = Array[i+1]*-1;
+                Array[i] = - Array[i+1];
 
 
             }
-            System.out.println(Array[i]);
-          }
+                     }
+        for (int i = 0; i < Array.length; i++) {
+            System.out.print(Array[i] + " ");
+        }
 
 
 
