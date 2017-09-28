@@ -6,13 +6,13 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-             int[] Array = new int[7];
-             int kol=0;
-             int sum=0;
-             int isum=0;
-             int k=0;
-             int summh=0;
-             int summn=0;
+        int[] Array = new int[7];
+        int kol = 0;
+        int sum = 0;
+        int isum = 0;
+        int k = 0;
+        int summh = 0;
+        int summn = 0;
         //Пункт 1-2 ДЗ
         System.out.println("1-2 пункта ДЗ");
         System.out.println("Введите элементы массива ");
@@ -62,28 +62,47 @@ public class Main {
     }
         System.out.println("Количество локальных максимумов " + kol);
         System.out.println();
-        System.out.println("7 пункт ДЗ");
-        // Пункт 7 ДЗ
-        System.out.println("Введите элементы массива ");
+        System.out.println("6 пункт ДЗ");
+//        // Пункт 6 ДЗ
 
-        for (int i = 0; i < Array.length; i++) {
-            Array[i] = scanner.nextInt();
 
-            if (Array[i] == 0) {
+        int[] Array6 = {-1, 2, 5, 7, -9, -16, 88};
+        System.out.println("1, 2, 5, 7, -9, -16, 88");
+        int kolm = 1;
+        for (int i = 1; i < Array6.length-1; i++) {
 
-                Array[i] = - Array[i+1];
+
+            if (Array6[i]<Array6[i+1]&& Array6[i]>Array6[i-1]) {
+
+                kolm++;
 
 
             }
-                     }
+
+
+        }
+
+        System.out.println("Максимальная длина посл.возр.чисел = " + kolm);
+        System.out.println();
+        System.out.println("7 пункт ДЗ");
+        // Пункт 7 ДЗ
+        System.out.println();
+        int [] Array2 = {1,2,0,5,4,0,3};
         for (int i = 0; i < Array.length; i++) {
-            System.out.print(Array[i] + " ");
+
+            if (Array2[i] == 0) {
+
+                Array2[i] = Array2[i+1]*-1;
+
+
+            }
+            System.out.print(Array2[i] + " ");
+                     }
+
+    }
         }
 
 
 
 
-    }
-
-}
 
