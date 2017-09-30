@@ -66,7 +66,7 @@ public class Main {
 //        // Пункт 6 ДЗ
 
 
-        int[] Array6 = {-1, 2, 5, 7, -9, -16, 88};
+        int[] Array6 = {1, 2, 5, 7, -9, -16, 88};
         System.out.println("1, 2, 5, 7, -9, -16, 88");
         int kolm = 1;
         for (int i = 1; i < Array6.length-1; i++) {
