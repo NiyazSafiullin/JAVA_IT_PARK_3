@@ -4,21 +4,22 @@ public class Main {
 
     public static void main(String args[]) {
         char number[] = {'3', '2', '4', '1'};
+        char digits[] = {'1', '2', '6', '7'};
         int numberAsInt = parse(number);
         System.out.println(numberAsInt); // 3241 должно быть на экране
+
     }
 
-//        for(
-//    int i = 0;
-//    i<digits.length;i++)
-//
-//    {
-//        x = (int) digits[i];
-//        System.out.print(x + " ");
+
 
     public static int parse(char digits[]) {
-        int result=9;
-        return result;
+        for (int i = 0; i < digits.length; i++) {
+            int result = (int) digits[i];
+            System.out.print(result+ " ");
+        }
+
+        return 0;
     }
 
-}
+
+    }
