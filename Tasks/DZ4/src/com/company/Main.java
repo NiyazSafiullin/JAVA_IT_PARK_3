@@ -13,15 +13,20 @@ public class Main {
 
 
     public static int parse(char numbers[]) {
+        int rezult=0;
         for (int i = 0; i < numbers.length; i++) {
-            int result = (int) numbers[i];
-            System.out.print(result+ " ");
+            int position = numbers.length-1-i;
+            int chislo=1;
+            for (int j=0;j<position;j++) {
+                chislo = chislo * 10;
+            }
 
-           // return result;
+                       rezult=rezult+ (numbers[i]-48)*chislo;
+
+           // return 0;
         }
 
-        return 0;
+        return rezult;
     }
-
 
     }
