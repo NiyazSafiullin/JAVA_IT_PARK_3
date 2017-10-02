@@ -1,4 +1,5 @@
-package com.company;
+//package com.company;
+package ru.itpark;
 
 public class Main {
 
