@@ -1,4 +1,4 @@
-package com.company;
+
 import java.awt.image.AreaAveragingScaleFilter;
 import java.util.Scanner;
 public class Main {
