@@ -19,14 +19,16 @@ public class Main {
             int chislo=1;
             for (int j=0;j<position;j++) {
                 chislo = chislo * 10;
+
             }
 
                        rezult=rezult+ (numbers[i]-48)*chislo;
+            System.out.println(rezult);
 
            // return 0;
         }
 
-        return rezult;
+        return 0;
     }
 
     }
