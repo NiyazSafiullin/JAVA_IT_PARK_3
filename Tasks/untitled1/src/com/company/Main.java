@@ -25,6 +25,11 @@ public class Main {
                     document.addLineToBegin("Мир");
                 }
                 break;
+                case 4: {
+                    document.deleteDocuments();
+                    break;
+
+                }
 
                 case 6: {
                     document.clearDocuments();

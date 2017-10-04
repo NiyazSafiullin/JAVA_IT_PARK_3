@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Document {
     int count=0;
     String [] Lines= new String[3];
@@ -23,5 +25,16 @@ public class Document {
         }
         Lines[0] = newLine;
         count++;
+    }
+    void deleteDocuments() {
+        System.out.println("Какую строку удалить ?");
+        Scanner scanner=new Scanner(System.in);
+        int vibor = scanner.nextInt();
+        for (int i=0;i<Lines.length;i++) {
+        if (i==vibor) {
+            i=i-1;
+            }
+        }
+
     }
 }
