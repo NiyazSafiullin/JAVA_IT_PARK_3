@@ -1,4 +1,4 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 class Program {
 	public static void main(String[] args) {
 		Scanner scanner= new Scanner(System.in);
@@ -17,7 +17,7 @@ class Program {
 				System.out.println("Купюр по 100 рублей" + " " + w2+ " " + "шт.");
 				int p1=w1%50;
 				int p2=w1/50;
-				System.out.println("Купюр по 50 рублей" + " " + p2+ " " + "шт.");
+				System.out.println("Купюр по 50 рублей" + " " + p2+ " " + "шт..");
 				int b1=p1%10;
 				int b2=p1/10;
 				System.out.println("Купюр по 10 рублей" + " " + b2+ " " + "шт.");
