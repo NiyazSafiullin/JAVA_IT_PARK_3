@@ -1,7 +1,7 @@
 package com.company;
 
 public class Menu {
-    public static void showMenu() {
+    void showMenu() {
         System.out.println("МЕНЮ:");
         System.out.println("1. Показать документ");
         System.out.println("2. Вставить строку в начало");
@@ -10,5 +10,7 @@ public class Menu {
         System.out.println("5. Заменить строку");
         System.out.println("6. Очистить строку");
         System.out.println("7. Выход");
+        System.out.println();
     }
+
 }
