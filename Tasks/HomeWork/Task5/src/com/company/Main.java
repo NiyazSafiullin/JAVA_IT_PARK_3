@@ -22,14 +22,23 @@ public class Main {
 
                 }break;
                 case 2: {
+                    if (document.count==document.Lines.length) {
+                        System.err.println("Нет места");
+                        break;
+                    }
                     System.out.println("Введите строку");
                     String newLine=scanner.next();
                     document.addLineToBegin(newLine);
                   //  document.addLineToBegin("Мир");
                 }break;
                 case 3: {
-                    document.addLineToEnd("Пока");
-                 //   document.addLineToEnd("Друг");
+                    if (document.count == document.Lines.length) {
+                        System.err.println("Нет места");
+                        break;
+                    }
+                    System.out.println("Введите строку: ");
+                    String newLine = scanner.next();
+                    document.addLineToEnd(newLine);
                 }
                 break;
                 case 4: {

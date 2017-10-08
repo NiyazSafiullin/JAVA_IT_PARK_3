@@ -94,7 +94,7 @@ void addLineToEnd(String newLine) {
         int vibor = scanner.nextInt();
         for (int i = 0; i < Lines.length; i++) {
             if (i == vibor) {
-      //          Lines[i] = zamena;
+                Lines[i] = zamena;
             }
 
             count++;
