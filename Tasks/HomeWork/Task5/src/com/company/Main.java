@@ -19,12 +19,14 @@ public class Main {
             switch (command) {
                 case 1: {
                     document.showDocuments();
-                    break;
-                }
+
+                }break;
                 case 2: {
-                    document.addLineToBegin();
+                    System.out.println("Введите строку");
+                    String newLine=scanner.next();
+                    document.addLineToBegin(newLine);
                   //  document.addLineToBegin("Мир");
-                break;}
+                }break;
                 case 3: {
                     document.addLineToEnd("Пока");
                  //   document.addLineToEnd("Друг");
