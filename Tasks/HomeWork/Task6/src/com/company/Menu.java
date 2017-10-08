@@ -9,7 +9,7 @@ public class Menu {
         System.out.println("4. RuTV"); // спросить, какую строку удалить - сделать сдвиг
         System.out.println("5. Спорт");
         System.out.println("6. RT");
-        System.out.println("7. Выход");
+        System.out.println("7. Выключить tv");
         System.out.println();
     }
 
