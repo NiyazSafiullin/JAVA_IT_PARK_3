@@ -44,7 +44,7 @@ public void show() {
 
 }
 public void raspisanie() {
-    System.out.println("9:00-11:00" + " " + "Доброе утро");
+    System.out.println("9:00-11:00" + " " + "Доброе утро!");
 }
 
     public Telecast(String name_channel,String name_peredacha, String start_time, String end_time) {

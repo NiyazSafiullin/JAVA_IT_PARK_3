@@ -41,6 +41,9 @@ public class Main {
                   sport.show();
                   System.out.println();
               }break;
+              case 6: {
+
+              }break;
               case 7: {
                   System.exit(0);
               }

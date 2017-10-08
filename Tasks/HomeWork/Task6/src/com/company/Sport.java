@@ -23,6 +23,7 @@ public class Sport {
         System.out.println(name_peredacha);
         System.out.println(start_time);
         System.out.println(end_time);
+        System.out.println();
 
     }
 
