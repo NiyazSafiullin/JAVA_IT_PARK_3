@@ -24,10 +24,11 @@ public class Main {
 
               case 1: {
                  telecast.show();
+                 // telecast.raspisanie();
                   System.out.println();
               } break;
               case 2: {
-                  System.out.println("Second");
+
               }break;
               case 3: {
 
