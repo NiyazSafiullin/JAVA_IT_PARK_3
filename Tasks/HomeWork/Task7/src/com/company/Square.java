@@ -20,12 +20,19 @@ Square (int a) {
         this.a = a;
     }
 
-    public int squares (int a) {
-    return a*a;
+    public void squares (int a) {
+   if (a>0) {
+       System.out.println("Площадь квадрата=" + a*a);
+   } else
+       System.err.println("Площадь квадрата не может быть равным нулю");
+   }
 
+    public void perimetr (int a) {
+     if (a>0) {
+         System.out.println("Периметр квадрата=" + 4*a);
+     } else
+         System.err.println("Периметр квадрата не может быть нулевым");
     }
-    public int perimetr (int a) {
-      return 4*a;
-    }
+
 }
 

@@ -3,13 +3,15 @@ package com.company;
 public class Rectangle extends Square {
 
     int b;
-Rectangle () {
 
-    b=7;
+    Rectangle() {
+
+        b = 7;
     }
-    Rectangle (int a,int b) {
-    this.a=a;
-    this.b=b;
+
+    Rectangle(int a, int b) {
+        this.a = a;
+        this.b = b;
     }
 
     public void setB(int b) {
@@ -27,10 +29,18 @@ Rectangle () {
     public int getA() {
         return a;
     }
-    public int Squareds (int a, int b) {
-    return a*b;
+
+    public void Squareds(int a, int b) {
+        if (a > 0 && b > 0) {
+            System.out.println("Площадь прямоугольника = " + (a + b) * 2);
+        } else System.err.println("Площадь прямоугольника не может быть нулевым");
+
     }
-    public int Perimetrs(int a,int b) {
-    return (a+b)*2;
+
+    public void Perimetr(int a, int b) {
+        if (a > 0 && b > 0) {
+            System.out.println("Площадь прямоугольника = " + (a + b) * 2);
+        } else System.err.println("Площадь прямоугольника не может быть нулевым");
+
     }
 }
