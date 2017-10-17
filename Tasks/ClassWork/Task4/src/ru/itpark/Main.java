@@ -29,6 +29,7 @@ public class Main {
             max=temp;
         System.out.println(min);
         System.out.println(max);
+        System.out.println(array);
             // развернуть массив без использования
             // допольнительного массива
         /*
