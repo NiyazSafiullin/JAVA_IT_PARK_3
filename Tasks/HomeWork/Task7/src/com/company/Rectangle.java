@@ -4,7 +4,7 @@ public class Rectangle extends Square {
 
     int b;
 Rectangle () {
-    
+
     b=7;
     }
     Rectangle (int a,int b) {
