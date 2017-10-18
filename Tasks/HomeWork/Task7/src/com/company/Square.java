@@ -1,33 +1,33 @@
 package com.company;
 
-public class Square {
-    public int a;
+public class Square extends Figure {
+    public double a;
 
-Square () {
-    a=5;
+public Square () {
+
 
 }
-Square (int a) {
+public Square (double a) {
     this.a=a;
 
     }
 
-    public int getA() {
+    public double getA() {
         return a;
     }
 
-    public void setA(int a) {
+    public void setA(double a) {
         this.a = a;
     }
 
-    public void squares (int a) {
+    public void squares (double a) {
    if (a>0) {
        System.out.println("Площадь квадрата=" + a*a);
    } else
        System.err.println("Площадь квадрата не может быть равным нулю");
    }
 
-    public void perimetr (int a) {
+    public void perimetr (double a) {
      if (a>0) {
          System.out.println("Периметр квадрата=" + 4*a);
      } else
