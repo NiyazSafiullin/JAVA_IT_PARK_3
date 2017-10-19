@@ -1,11 +1,15 @@
 package com.company;
 
 public class ArrayList implements List {
-    private int count=0;
+    int count=0;
     int [] array= new int [5];
 
     @Override
-    public void add(int a) {
+    public void add(int elem) {
+
+               if (array.length>count)
+           array[count]=elem;
+           count++;
 
     }
 
