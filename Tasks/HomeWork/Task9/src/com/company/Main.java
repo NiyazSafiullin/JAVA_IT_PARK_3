@@ -17,6 +17,10 @@ public class Main {
                     int elem = scanner.nextInt();
                     list.add(elem);
                 } break;
+                case 2: {
+                    int b=scanner.nextInt();
+                    list.delete(2);
+                }
                 case 6: {
                     System.exit(0);
                 }
