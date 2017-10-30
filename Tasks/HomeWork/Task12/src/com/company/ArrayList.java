@@ -7,7 +7,7 @@ private Object arrayList[];
 
     public ArrayList() {
         this.count = 0;
-        this.arrayList = new Object[100];
+        this.arrayList = new Object[10];
     }
 
 

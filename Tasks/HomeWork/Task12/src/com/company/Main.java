@@ -10,8 +10,8 @@ public class Main {
         DataReader numberReader = new DataReader("input.txt");
         int number = numberReader.readInteger();
 
-        List ageList[] = new LinkedList[100];
-        for (int i = 0; i < 100; i++) {
+        List ageList[] = new LinkedList[10];
+        for (int i = 0; i < 10; i++) {
             ageList[i] = new LinkedList();
         }
     }
