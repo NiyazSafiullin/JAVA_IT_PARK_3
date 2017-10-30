@@ -1,4 +1,6 @@
 package com.company;
 
-public class List {
+public interface List {
+    void concat(LinkedList otherList);
+    void add(Object object);
 }

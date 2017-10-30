@@ -2,11 +2,11 @@ package com.company;
 
 public class Human {
     String name;
-    double height;
+    int year;
 
-    public Human(String name, double height) {
+    public Human(String name, int year) {
         this.name = name;
-        this.height = height;
+        this.year = year;
     }
 public Human () {
 
@@ -15,8 +15,8 @@ public Human () {
         return name;
     }
 
-    public double getHeight() {
-        return height;
+    public int getHeight() {
+        return year;
     }
 
 }

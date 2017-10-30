@@ -10,9 +10,13 @@ public class Main {
         DataReader numberReader = new DataReader("input.txt");
         int number = numberReader.readInteger();
 
-        List ageList[] = new LinkedList[10];
+        List yearList[] = new LinkedList[10];
         for (int i = 0; i < 10; i++) {
-            ageList[i] = new LinkedList();
+            yearList[i] = new LinkedList();
+        }
+        if (number != 0) {
+            Human human = new Human("Tom", 30);
+            yearList[number].add(human);
         }
     }
 }
