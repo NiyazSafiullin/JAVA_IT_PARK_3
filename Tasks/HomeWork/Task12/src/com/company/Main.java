@@ -15,8 +15,11 @@ public class Main {
             yearList[i] = new LinkedList();
         }
         if (number != 0) {
-            Human human = new Human("Tom", 30);
+
+          Human human=new Human(word,number);
             yearList[number].add(human);
+            number=numberReader.readInteger();
+            word=reader.readString();
         }
     }
 }
