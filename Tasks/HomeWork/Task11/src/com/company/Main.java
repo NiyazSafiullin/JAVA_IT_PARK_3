@@ -16,7 +16,7 @@ public class Main {
 //            word = reader.readString();
 //        }
 
-
+        System.out.println("");
 
     }
 }
