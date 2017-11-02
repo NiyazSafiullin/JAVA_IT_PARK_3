@@ -17,9 +17,15 @@ private Object arrayList[];
 
     @Override
     public void add(Object object) {
+        if (count < arrayList.length) {
+            for (int i = count; i > 0; i--) {
+                arrayList[i] = arrayList[i-1];
+            }
+            count++;
+            arrayList[0] = object;
+        }
 
     }
-
     public ArrayList(int count, Object[] arrayList) {
         this.count = count;
         this.arrayList = arrayList;

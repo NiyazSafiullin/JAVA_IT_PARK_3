@@ -22,4 +22,10 @@ public class LinkedList implements List {
 
     }
 
+
+    public void add(int a, Object object) {
+        System.out.println("Добавление");
+    }
+
+
 }

@@ -8,18 +8,20 @@ public class Main {
         DataReader reader = new DataReader("input.txt");
         String word = reader.readString();
         DataReader numberReader = new DataReader("input.txt");
-        int number = numberReader.readInteger();
+       int number = numberReader.readInteger();
 
-        List yearList[] = new LinkedList[10];
-        for (int i = 0; i < 10; i++) {
+        List yearList[] = new LinkedList[100];
+        for (int i = 0; i < 100; i++) {
             yearList[i] = new LinkedList();
         }
-        if (number != 0) {
+        while (number != 0) {
 
           Human human=new Human(word,number);
             yearList[number].add(human);
             number=numberReader.readInteger();
             word=reader.readString();
         }
+
+
     }
 }
