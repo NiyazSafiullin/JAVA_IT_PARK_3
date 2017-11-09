@@ -48,23 +48,17 @@ public class Main {
                 break;
                 case 5: {
 
-                    System.out.println();
+                    System.out.println("Введите имя владельца:");
+                    String drivers=scanner.next();
+                    working.viwecar(drivers);
                 }
                 break;
                 case 6: {
-//                    System.out.println("Введите цвет машины:");
-//                    Scanner scanner1=new Scanner(System.in);
-//                    String variant=scanner1.nextLine();
-//                    ResultSet resultSet=statement.executeQuery("SELECT * FROM car");
-//                     while (resultSet.next()) {
-//                        String colors=resultSet.getString("color");
-//                       if(variant==colors) {
-//                            System.out.println(" " + resultSet.getString("model"));
-//
-//                        }
-//                       // System.out.print(resultSet.getInt("id"));
-//                        //System.out.println(" " + resultSet.getString("model"));
-//                }}
+                    System.out.println("Введите цвет машины:");
+                    String col=scanner.next();
+                    working.viwecarcolor(col);
+
+
                 }
                 break;
                 case 7: {

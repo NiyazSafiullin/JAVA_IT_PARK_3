@@ -5,6 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.*;
 import java.lang.*;
+import java.util.Scanner;
 
 public class working {
     public static Connection connect() throws SQLException {
@@ -15,6 +16,7 @@ public class working {
 
         return DriverManager.getConnection(url, name, password);
     }
+
     public working() throws SQLException {
     }
 
@@ -32,7 +34,8 @@ public class working {
             throw new IllegalArgumentException(e);
         }
     }
-    public static void addcar(int number, String model,String color) {
+
+    public static void addcar(int number, String model, String color) {
         try {
             Connection connection = working.connect();
             PreparedStatement preparedStatement = connection
@@ -45,6 +48,47 @@ public class working {
 
         } catch (SQLException e) {
             throw new IllegalArgumentException(e);
+        }
+    }
+
+    public static void viwecarcolor(String col)  {
+        try {
+
+            Connection connection = working.connect();
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery("SELECT * FROM car WHERE car.color='" + col + "'");
+
+            System.out.println("Все владельцы данного цвета авто:");
+            while (resultSet.next()) {
+                System.out.println(" " + resultSet.getString("model"));
+
+                }
+
+        }
+        catch(SQLException e){
+        throw new IllegalArgumentException(e);
+    }finally {
+
+        }
+    }
+    public static void viwecar(String drivers)  {
+        try {
+
+            Connection connection = working.connect();
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery("SELECT * FROM owner JOIN car ON owner.name='" + drivers + "'");
+
+            System.out.println("Все авто данного владельца:");
+            while (resultSet.next()) {
+                System.out.println(" " + resultSet.getString("model"));
+
+            }
+
+        }
+        catch(SQLException e){
+            throw new IllegalArgumentException(e);
+        }finally {
+
         }
     }
     public static void viewowner() {
