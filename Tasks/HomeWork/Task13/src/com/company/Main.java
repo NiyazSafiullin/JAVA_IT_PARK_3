@@ -9,59 +9,42 @@ public class Main {
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
 
 //        Class.forName("org.postgres.Driver");
-        String name="postgres";
-        String password= "Zaq12wsx";
-        String url="jdbc:postgresql:" +
-        "//localhost:5432/safiullin_nh";
-
-        Connection connection =
-                DriverManager.getConnection(
-                        url, name, password);
-
-        Statement statement =
-                connection.createStatement();
-
-
 
         Menu menu = new Menu();
         Scanner scanner = new Scanner(System.in);
+
+
+
         while (true) {
             menu.showMenu();
             int command = scanner.nextInt();
             switch (command) {
                 case 1: {
-
-                }
+                    System.out.println("Введите имя:");
+                    String name=scanner.next();
+                    System.out.println("Введите возраст:");
+                    int age=scanner.nextInt();
+                    working.add(name,age);
+                 }
                 break;
                 case 2: {
-
+                    System.out.println("Введите номер автомобиля:");
+                    int number=scanner.nextInt();
+                    System.out.println("Введите модель автомобиля:");
+                    String model=scanner.next();
+                    System.out.println("Введите цвет автомобиля:");
+                    String color=scanner.next();
+                    working.addcar(number,model,color);
                 }
                 break;
                 case 3: {
+                 working.viewowner();
 
-                    ResultSet resultSet1 =
-                            statement
-                                    .executeQuery("SELECT * FROM owner");
-
-                    while (resultSet1.next()) {
-                        System.out.print(resultSet1.getInt("id"));
-                        System.out.println(" " + resultSet1.getString("name"));
-
-                                          }
                 }break;
                 case 4: {
-                    ResultSet resultSet1 =
-                            statement
-                                    .executeQuery("SELECT * FROM car");
+                    working.viewcar();
 
-                    while (resultSet1.next()) {
-                        System.out.print(resultSet1.getInt("id"));
-                        System.out.println(" " + resultSet1.getString("model"));
-
-                    }
-
-                    System.out.println();
-                }
+            }
                 break;
                 case 5: {
 
@@ -69,7 +52,19 @@ public class Main {
                 }
                 break;
                 case 6: {
-
+//                    System.out.println("Введите цвет машины:");
+//                    Scanner scanner1=new Scanner(System.in);
+//                    String variant=scanner1.nextLine();
+//                    ResultSet resultSet=statement.executeQuery("SELECT * FROM car");
+//                     while (resultSet.next()) {
+//                        String colors=resultSet.getString("color");
+//                       if(variant==colors) {
+//                            System.out.println(" " + resultSet.getString("model"));
+//
+//                        }
+//                       // System.out.print(resultSet.getInt("id"));
+//                        //System.out.println(" " + resultSet.getString("model"));
+//                }}
                 }
                 break;
                 case 7: {

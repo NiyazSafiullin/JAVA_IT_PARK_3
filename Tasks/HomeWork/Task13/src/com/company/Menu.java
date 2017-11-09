@@ -3,8 +3,7 @@ package com.company;
 public class Menu {
     void showMenu() {
         System.out.println();
-        System.out.println("Автомобиль");
-        System.out.println("1. Добавить владельца");
+            System.out.println("1. Добавить владельца");
         System.out.println("2. Добавить машину");
         System.out.println("3. Показать всех владельцев");
         System.out.println("4. Показать все машины");
