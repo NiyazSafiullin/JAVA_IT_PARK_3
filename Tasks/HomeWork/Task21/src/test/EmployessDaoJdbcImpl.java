@@ -27,9 +27,7 @@ public EmployessDaoJdbcImpl(DataSource dataSource) {
     }
 
 
-    public List<employess> findAllname(String name) {
-        return null;
-    }
+
 
     public void save(employess name) {
 
@@ -42,13 +40,11 @@ public EmployessDaoJdbcImpl(DataSource dataSource) {
             preparedStatement.setInt(1, id);
             ResultSet resultSet = preparedStatement.executeQuery();
             employess employess = null;
-            while (resultSet.next()) {
-                employess = models.employess.builder()
-                        .id(resultSet.getInt("id"))
-                        .name(resultSet.getString("name"))
-                        .kindof_activity(resultSet.getString("kindof_activity"))
-                        .build();
-            }
+            while (resultSet.next()) employess = models.employess.builder()
+                    .id(resultSet.getInt("id"))
+                    .name(resultSet.getString("name"))
+                    .kindof_activity(resultSet.getString("kindof_activity"))
+                    .build();
             if (employess == null) {
                 throw new IllegalArgumentException("Employess with id <" + id + "> not found");
             } else return null;
@@ -59,6 +55,10 @@ public EmployessDaoJdbcImpl(DataSource dataSource) {
 
 
     public List<employess> findAll() {
+        return null;
+    }
+
+    public List<employess> findAllName(String name) {
         return null;
     }
 }
