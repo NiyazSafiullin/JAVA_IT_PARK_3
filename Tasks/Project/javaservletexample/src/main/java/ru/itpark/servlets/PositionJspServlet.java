@@ -18,7 +18,7 @@ public class PositionJspServlet extends HttpServlet {
 
     @Override
     public void init(ServletConfig config) throws ServletException {
-        this.positionRepository = (PositionRepository)config.getServletContext().getAttribute("usersRepository");
+        this.positionRepository = (PositionRepository)config.getServletContext().getAttribute("positionRepository");
     }
 
     @Override
@@ -32,10 +32,10 @@ public class PositionJspServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setCharacterEncoding("UTF-8");
-        int id=Integer.parseInt(req.getParameter("id"));
+        //int id=Integer.parseInt(req.getParameter("id"));
         String name = req.getParameter("name");
         position position = ru.itpark.models.position.builder()
-                .id(id)
+              //  .id(id)
                 .name(name)
                 .build();
 

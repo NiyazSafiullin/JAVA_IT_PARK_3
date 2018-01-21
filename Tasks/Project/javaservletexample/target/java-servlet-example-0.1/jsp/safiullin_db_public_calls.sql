@@ -1,2 +1,0 @@
-INSERT INTO public.calls (time, line, response_time, employee, talk_time, hold_time) VALUES ('12:00:00', 1, '01:00:00', 1, '00:10:00', '00:01:00');
-INSERT INTO public.calls (time, line, response_time, employee, talk_time, hold_time) VALUES ('15:00:00', 2, '02:00:00', 2, '00:07:00', '00:02:00');

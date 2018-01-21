@@ -5,3 +5,5 @@ INSERT INTO public.employees (id, surname, name, date_of_birth, passport, hire_d
 INSERT INTO public.employees (id, surname, name, date_of_birth, passport, hire_date, date_of_dismissal, position, "group") VALUES (8, 'Safiu', 'Niyaz', null, 'RF', null, null, 2, null);
 INSERT INTO public.employees (id, surname, name, date_of_birth, passport, hire_date, date_of_dismissal, position, "group") VALUES (10, 'Ivanov', 'Alex', null, 'RF', null, null, 1, null);
 INSERT INTO public.employees (id, surname, name, date_of_birth, passport, hire_date, date_of_dismissal, position, "group") VALUES (12, 'Ivanov', '1', null, 'RF', null, null, 1, null);
+INSERT INTO public.employees (id, surname, name, date_of_birth, passport, hire_date, date_of_dismissal, position, "group") VALUES (14, 'Ivanov', '1', null, 'RF', null, null, 2, null);
+INSERT INTO public.employees (id, surname, name, date_of_birth, passport, hire_date, date_of_dismissal, position, "group") VALUES (17, 'sd', 'test', null, 'RFf', null, null, 2, null);

@@ -19,7 +19,7 @@
     </tr>
     <c:forEach items="${positions}" var="position">
         <tr>
-            <td>${position.id}</td>
+          <td>${position.id}</td>
             <td>${position.name}</td>
 
 

@@ -48,8 +48,8 @@
     </role>
     <schema id="10" parent="2" name="public">
       <ObjectId>2200</ObjectId>
-      <IntrospectionTimestamp>2018-01-21.21:19:15.380</IntrospectionTimestamp>
-      <IntrospectionStateNumber>828</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2018-01-21.22:44:43.769</IntrospectionTimestamp>
+      <IntrospectionStateNumber>843</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -68,7 +68,15 @@
     <schema id="15" parent="2" name="information_schema">
       <ObjectId>12648</ObjectId>
     </schema>
-    <sequence id="16" parent="10" name="employees_id_seq">
+    <sequence id="16" parent="10" name="positions_id_seq">
+      <ObjectId>32891</ObjectId>
+      <StateNumber>844</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="17" parent="10" name="employees_id_seq">
       <ObjectId>32888</ObjectId>
       <StateNumber>781</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
@@ -76,94 +84,94 @@
       <CacheSize>1</CacheSize>
       <DataType>bigint</DataType>
     </sequence>
-    <table id="17" parent="10" name="calls">
+    <table id="18" parent="10" name="calls">
       <ObjectId>24807</ObjectId>
       <StateNumber>748</StateNumber>
     </table>
-    <table id="18" parent="10" name="employees">
+    <table id="19" parent="10" name="employees">
       <ObjectId>24716</ObjectId>
       <StateNumber>756</StateNumber>
     </table>
-    <table id="19" parent="10" name="groups">
+    <table id="20" parent="10" name="groups">
       <ObjectId>24733</ObjectId>
       <StateNumber>727</StateNumber>
     </table>
-    <table id="20" parent="10" name="line">
+    <table id="21" parent="10" name="line">
       <ObjectId>24830</ObjectId>
       <StateNumber>773</StateNumber>
     </table>
-    <table id="21" parent="10" name="line_staff">
+    <table id="22" parent="10" name="line_staff">
       <ObjectId>24842</ObjectId>
       <StateNumber>773</StateNumber>
     </table>
-    <table id="22" parent="10" name="positions">
+    <table id="23" parent="10" name="positions">
       <ObjectId>24796</ObjectId>
       <StateNumber>731</StateNumber>
     </table>
-    <column id="23" parent="17" name="time">
+    <column id="24" parent="18" name="time">
       <Position>1</Position>
       <DataType>time|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>732</StateNumber>
       <TypeId>1083</TypeId>
     </column>
-    <column id="24" parent="17" name="line">
+    <column id="25" parent="18" name="line">
       <Position>2</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>732</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="25" parent="17" name="response_time">
+    <column id="26" parent="18" name="response_time">
       <Position>3</Position>
       <DataType>time|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>732</StateNumber>
       <TypeId>1083</TypeId>
     </column>
-    <column id="26" parent="17" name="employee">
+    <column id="27" parent="18" name="employee">
       <Position>4</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>732</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="27" parent="17" name="talk_time">
+    <column id="28" parent="18" name="talk_time">
       <Position>5</Position>
       <DataType>time|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>732</StateNumber>
       <TypeId>1083</TypeId>
     </column>
-    <column id="28" parent="17" name="hold_time">
+    <column id="29" parent="18" name="hold_time">
       <Position>6</Position>
       <DataType>time|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>732</StateNumber>
       <TypeId>1083</TypeId>
     </column>
-    <index id="29" parent="17" name="calls_pkey">
+    <index id="30" parent="18" name="calls_pkey">
       <ObjectId>24810</ObjectId>
       <ColNames>time</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="30" parent="17" name="calls_time_uindex">
+    <index id="31" parent="18" name="calls_time_uindex">
       <ObjectId>24812</ObjectId>
       <ColNames>time</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="31" parent="17" name="calls_line_uindex">
+    <index id="32" parent="18" name="calls_line_uindex">
       <ObjectId>24836</ObjectId>
       <ColNames>line</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="32" parent="17" name="calls_pkey">
+    <key id="33" parent="18" name="calls_pkey">
       <ObjectId>24811</ObjectId>
       <ColNames>time</ColNames>
       <UnderlyingIndexName>calls_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="33" parent="17" name="calls___fk">
+    <foreign-key id="34" parent="18" name="calls___fk">
       <ObjectId>24813</ObjectId>
       <ColNames>employee</ColNames>
       <RefTableId>24716</RefTableId>
@@ -172,7 +180,7 @@
       <RefKeyName>employees_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="34" parent="18" name="id">
+    <column id="35" parent="19" name="id">
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
@@ -181,74 +189,74 @@
       <TypeId>23</TypeId>
       <SequenceName>employees_id_seq</SequenceName>
     </column>
-    <column id="35" parent="18" name="surname">
+    <column id="36" parent="19" name="surname">
       <Position>2</Position>
       <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>811</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="36" parent="18" name="name">
+    <column id="37" parent="19" name="name">
       <Position>3</Position>
       <DataType>varchar(15)|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>808</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="37" parent="18" name="date_of_birth">
+    <column id="38" parent="19" name="date_of_birth">
       <Position>4</Position>
       <DataType>date|0</DataType>
       <StateNumber>826</StateNumber>
       <TypeId>1082</TypeId>
     </column>
-    <column id="38" parent="18" name="passport">
+    <column id="39" parent="19" name="passport">
       <Position>5</Position>
       <DataType>varchar(15)|0</DataType>
       <StateNumber>825</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="39" parent="18" name="hire_date">
+    <column id="40" parent="19" name="hire_date">
       <Position>6</Position>
       <DataType>date|0</DataType>
       <StateNumber>827</StateNumber>
       <TypeId>1082</TypeId>
     </column>
-    <column id="40" parent="18" name="date_of_dismissal">
+    <column id="41" parent="19" name="date_of_dismissal">
       <Position>7</Position>
       <DataType>date|0</DataType>
       <StateNumber>828</StateNumber>
       <TypeId>1082</TypeId>
     </column>
-    <column id="41" parent="18" name="position">
+    <column id="42" parent="19" name="position">
       <Position>8</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>820</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="42" parent="18" name="group">
+    <column id="43" parent="19" name="group">
       <Position>9</Position>
       <DataType>integer|0</DataType>
       <StateNumber>824</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <index id="43" parent="18" name="employees_id_uindex">
+    <index id="44" parent="19" name="employees_id_uindex">
       <ObjectId>24721</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="44" parent="18" name="employees_pkey">
+    <index id="45" parent="19" name="employees_pkey">
       <ObjectId>24719</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="45" parent="18" name="employees_pkey">
+    <key id="46" parent="19" name="employees_pkey">
       <ObjectId>24720</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>employees_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="46" parent="18" name="employees___fk">
+    <foreign-key id="47" parent="19" name="employees___fk">
       <ObjectId>24802</ObjectId>
       <ColNames>position</ColNames>
       <RefTableId>24796</RefTableId>
@@ -257,7 +265,7 @@
       <RefKeyName>positions_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="47" parent="18" name="employees_group_fkey">
+    <foreign-key id="48" parent="19" name="employees_group_fkey">
       <ObjectId>24791</ObjectId>
       <ColNames>group</ColNames>
       <RefTableId>24733</RefTableId>
@@ -266,80 +274,80 @@
       <RefKeyName>groups_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="48" parent="19" name="id">
+    <column id="49" parent="20" name="id">
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>709</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="49" parent="19" name="name">
+    <column id="50" parent="20" name="name">
       <Position>2</Position>
       <DataType>varchar(15)|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>709</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="50" parent="19" name="superviser">
+    <column id="51" parent="20" name="superviser">
       <Position>3</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>709</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <index id="51" parent="19" name="groups_id_uindex">
+    <index id="52" parent="20" name="groups_id_uindex">
       <ObjectId>24738</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="52" parent="19" name="groups_pkey">
+    <index id="53" parent="20" name="groups_pkey">
       <ObjectId>24736</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="53" parent="19" name="groups_pkey">
+    <key id="54" parent="20" name="groups_pkey">
       <ObjectId>24737</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>groups_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="54" parent="20" name="id">
+    <column id="55" parent="21" name="id">
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>744</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="55" parent="20" name="priority">
+    <column id="56" parent="21" name="priority">
       <Position>2</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>744</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="56" parent="20" name="information">
+    <column id="57" parent="21" name="information">
       <Position>3</Position>
       <DataType>varchar(50)|0</DataType>
       <StateNumber>744</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="57" parent="20" name="line_id_uindex">
+    <index id="58" parent="21" name="line_id_uindex">
       <ObjectId>24835</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="58" parent="20" name="line_pkey">
+    <index id="59" parent="21" name="line_pkey">
       <ObjectId>24833</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="59" parent="20" name="line_pkey">
+    <key id="60" parent="21" name="line_pkey">
       <ObjectId>24834</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>line_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="60" parent="20" name="line___fk">
+    <foreign-key id="61" parent="21" name="line___fk">
       <ObjectId>24837</ObjectId>
       <ColNames>id</ColNames>
       <RefTableId>24807</RefTableId>
@@ -347,32 +355,32 @@
       <RefTableName>calls</RefTableName>
       <RefColNames>line</RefColNames>
     </foreign-key>
-    <column id="61" parent="21" name="employee">
+    <column id="62" parent="22" name="employee">
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>749</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="62" parent="21" name="line">
+    <column id="63" parent="22" name="line">
       <Position>2</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>749</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <index id="63" parent="21" name="line_staff_line_pk">
+    <index id="64" parent="22" name="line_staff_line_pk">
       <ObjectId>24867</ObjectId>
       <ColNames>line</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="64" parent="21" name="line_staff_line_pk">
+    <key id="65" parent="22" name="line_staff_line_pk">
       <ObjectId>24868</ObjectId>
       <ColNames>line</ColNames>
       <UnderlyingIndexName>line_staff_line_pk</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="65" parent="21" name="line_staff___fk">
+    <foreign-key id="66" parent="22" name="line_staff___fk">
       <ObjectId>24862</ObjectId>
       <ColNames>employee</ColNames>
       <RefTableId>24716</RefTableId>
@@ -381,7 +389,7 @@
       <RefKeyName>employees_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="66" parent="21" name="line_staff___fk2">
+    <foreign-key id="67" parent="22" name="line_staff___fk2">
       <ObjectId>24869</ObjectId>
       <ColNames>line</ColNames>
       <RefTableId>24830</RefTableId>
@@ -390,31 +398,32 @@
       <RefKeyName>line_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="67" parent="22" name="id">
+    <column id="68" parent="23" name="id">
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>728</StateNumber>
+      <StateNumber>843</StateNumber>
+      <DefaultExpression>nextval(&apos;positions_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
+      <SequenceName>positions_id_seq</SequenceName>
     </column>
-    <column id="68" parent="22" name="name">
+    <column id="69" parent="23" name="name">
       <Position>2</Position>
       <DataType>varchar(15)|0</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>728</StateNumber>
+      <StateNumber>840</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="69" parent="22" name="positions_id_uindex">
+    <index id="70" parent="23" name="positions_id_uindex">
       <ObjectId>24801</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="70" parent="22" name="positions_pkey">
+    <index id="71" parent="23" name="positions_pkey">
       <ObjectId>24799</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="71" parent="22" name="positions_pkey">
+    <key id="72" parent="23" name="positions_pkey">
       <ObjectId>24800</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>positions_pkey</UnderlyingIndexName>

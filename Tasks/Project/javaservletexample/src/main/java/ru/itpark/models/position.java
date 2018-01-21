@@ -7,7 +7,7 @@ import java.util.Date;
 import java.util.List;
 
 @Entity
-@Table(name = "employees")
+@Table(name = "positions")
 @Getter
 @Setter
 @AllArgsConstructor
