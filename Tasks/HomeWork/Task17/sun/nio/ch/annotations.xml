@@ -1,0 +1,5 @@
+<root>
+    <item name='sun.nio.ch.ThreadPool'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>

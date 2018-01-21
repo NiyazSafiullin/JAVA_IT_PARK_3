@@ -1,0 +1,7 @@
+INSERT INTO public.employees (id, surname, name, date_of_birth, passport, hire_date, date_of_dismissal, position, "group") VALUES (1, 'Ivanov', 'Anatoliy', '2018-05-12', 'RF', '2017-01-12', null, 1, 1);
+INSERT INTO public.employees (id, surname, name, date_of_birth, passport, hire_date, date_of_dismissal, position, "group") VALUES (2, 'Saratov', 'Sasha', '2012-04-06', 'RF', '2018-01-17', null, 2, 1);
+INSERT INTO public.employees (id, surname, name, date_of_birth, passport, hire_date, date_of_dismissal, position, "group") VALUES (6, 'Safiullin', 'Niyaz', null, 'RF', null, null, 2, null);
+INSERT INTO public.employees (id, surname, name, date_of_birth, passport, hire_date, date_of_dismissal, position, "group") VALUES (7, 'Safiu', 'Niyaz', null, 'RF', null, null, 1, null);
+INSERT INTO public.employees (id, surname, name, date_of_birth, passport, hire_date, date_of_dismissal, position, "group") VALUES (8, 'Safiu', 'Niyaz', null, 'RF', null, null, 2, null);
+INSERT INTO public.employees (id, surname, name, date_of_birth, passport, hire_date, date_of_dismissal, position, "group") VALUES (10, 'Ivanov', 'Alex', null, 'RF', null, null, 1, null);
+INSERT INTO public.employees (id, surname, name, date_of_birth, passport, hire_date, date_of_dismissal, position, "group") VALUES (12, 'Ivanov', '1', null, 'RF', null, null, 1, null);

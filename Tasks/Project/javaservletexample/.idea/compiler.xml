@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="javaservletexample" />
+        <module name="java-servlet-example" />
+        <module name="JavaServletExample" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="javaservletexample" target="1.8" />
+      <module name="java-servlet-example" target="1.8" />
+      <module name="JavaServletExample" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

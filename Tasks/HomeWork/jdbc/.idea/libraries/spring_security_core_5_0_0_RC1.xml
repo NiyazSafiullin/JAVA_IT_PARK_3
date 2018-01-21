@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="spring-security-core-5.0.0.RC1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/lib/spring-security-core-5.0.0.RC1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/spring-data-jpa-2.0.1.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/spring-jdbc-3.2.1.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/spring-web-5.0.1.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/spring-aop-5.0.1.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

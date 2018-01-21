@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/javaservletexample.iml" filepath="$PROJECT_DIR$/javaservletexample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-servlet-example.iml" filepath="$PROJECT_DIR$/java-servlet-example.iml" />
     </modules>
   </component>
 </project>
