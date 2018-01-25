@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="unnamed">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="root">
+      <element id="module-output" name="SpringWebExtended" />
+      <element id="module-test-output" name="SpringWebExtended" />
+      <element id="dir-copy" path="$PROJECT_DIR$" />
+      <element id="dir-copy" path="$PROJECT_DIR$/target" />
+    </root>
+  </artifact>
+</component>
