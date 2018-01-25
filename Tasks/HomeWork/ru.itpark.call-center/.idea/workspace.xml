@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdf06ace-3306-415d-9504-af0a144c61c8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/CallsController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/CallsService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/CallsServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/RegistrationCallsController.java" afterPath="$PROJECT_DIR$/src/main/resources/temp/RegistrationCallsController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/forms/RegistrationCallsForm.java" afterPath="$PROJECT_DIR$/src/main/resources/temp/RegistrationCallsForm.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/repositories/CallsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/repositories/CallsRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/RegistrationCalls.java" afterPath="$PROJECT_DIR$/src/main/resources/temp/RegistrationCalls.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/RegistrationCallsImpl.java" afterPath="$PROJECT_DIR$/src/main/resources/temp/RegistrationCallsImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/UsersService.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/UsersService.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/controllers/RegistrationCallsController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/forms/RegistrationCallsForm.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/services/RegistrationCalls.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/services/RegistrationCallsImpl.class" afterPath="" />
-    </list>
+    <list default="true" id="cdf06ace-3306-415d-9504-af0a144c61c8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -461,6 +446,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -623,12 +609,12 @@
       <updated>1516733112686</updated>
       <workItem from="1516733118770" duration="8810000" />
       <workItem from="1516774738250" duration="27744000" />
-      <workItem from="1516859925741" duration="23382000" />
+      <workItem from="1516859925741" duration="23582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59936000" />
+    <option name="totallyTimeSpent" value="60136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
@@ -819,9 +805,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -854,9 +838,9 @@
         <state relative-caret-position="158">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#871#872#0" expanded="false" />
+            <element signature="e#913#914#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -866,7 +850,7 @@
         <state relative-caret-position="158">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -876,7 +860,7 @@
         <state relative-caret-position="158">
           <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -900,7 +884,7 @@
         <state relative-caret-position="175">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -942,7 +926,7 @@
         <state relative-caret-position="175">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -952,7 +936,7 @@
         <state relative-caret-position="200">
           <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -962,7 +946,7 @@
         <state relative-caret-position="25">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -988,8 +972,8 @@
         <state relative-caret-position="199">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1421#1422#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1007,7 +991,7 @@
         <state relative-caret-position="200">
           <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>

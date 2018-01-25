@@ -1,4 +1,4 @@
-package ru.itpark.callcenter.forms;
+package temp;
 
 import lombok.Data;
 import lombok.ToString;

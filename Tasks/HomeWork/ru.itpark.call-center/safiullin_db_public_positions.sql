@@ -1,0 +1,1 @@
+INSERT INTO public.positions (id, name) VALUES (1, 'Nik');
