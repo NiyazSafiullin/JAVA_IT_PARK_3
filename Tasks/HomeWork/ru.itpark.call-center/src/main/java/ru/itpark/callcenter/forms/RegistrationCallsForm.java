@@ -1,4 +1,4 @@
-package temp;
+package ru.itpark.callcenter.forms;
 
 import lombok.Data;
 import lombok.ToString;
@@ -14,8 +14,8 @@ public class RegistrationCallsForm {
     private Date time;
     private int line;
     private Date responce_time;
-    private int employee;
-    private Date talk_time;
-    private Date hold_time;
-    private LocalDateTime registrationTime;
+    //private int employee;
+    //private Date talk_time;
+   // private Date hold_time;
+  //  private LocalDateTime registrationTime;
 }

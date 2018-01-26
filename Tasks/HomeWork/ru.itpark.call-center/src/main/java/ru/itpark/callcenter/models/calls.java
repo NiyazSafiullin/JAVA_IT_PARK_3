@@ -23,9 +23,9 @@ public class calls {
     private Date time;
     private int line;
     private Date responce_time;
-    private int employee;
-    private Date talk_time;
-    private Date hold_time;
+//    private int employee;
+//    private Date talk_time;
+//    private Date hold_time;
     private LocalDateTime registrationTime;
 
 

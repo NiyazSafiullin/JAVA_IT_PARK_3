@@ -8,7 +8,7 @@ import java.util.List;
 public interface CallsRepository extends JpaRepository <calls, Long> {
    // List<calls> findByOrderByRegistrationTimeDesc();
     List<calls> findByOrderById();
-   // List<calls> findByOrderByName();
+    //List<calls> findByOrderByName();
 
 
 }

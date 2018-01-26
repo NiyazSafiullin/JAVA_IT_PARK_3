@@ -6,15 +6,16 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+<h1>Добавить в группу звонка</h1>
 <form class="form-style-4" title="Регистрация"
       name="registrationCallsForm"
       method="post"
-      action="/registration_calls">
-    <input type="text" name="time" placeholder="Имя"/>
+      action="/registrationcalls">
+    <input type="text" name="time" placeholder="Время"/>
     <br>
-    <input type="text" name="line" placeholder="Фамилия"/>
+    <input type="text" name="line" placeholder="Линия"/>
     <br>
-    <input type="text" name="response_time" placeholder="Супервайзер"/>
+    <input type="text" name="response_time" placeholder="Время разговора на линии"/>
     <br>
 
     <textarea name="description" onkeyup="adjust_textarea(this)"></textarea> <br><br>
