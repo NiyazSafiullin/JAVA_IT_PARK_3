@@ -3,20 +3,22 @@
 <@spring.bind "model"/>
 <html>
 <head>
-    <title>News- Регистрация</title>
+    <title>БД звонков</title>
 </head>
 <body>
 <table>
     <tr>
         <th>ID</th>
         <th>Имя</th>
-        <th>Дата регистрации</th>
+
     </tr>
     <#list model.calls as call>
     <tr>
+        <#--<td>${call.id}</td>-->
         <td>${call.time}</td>
+        <td>${call.employee}</td>
         <td>${call.line}</td>
-        <td>${call.responce_time}</td>
+
     </tr>
     </#list>
 </table>

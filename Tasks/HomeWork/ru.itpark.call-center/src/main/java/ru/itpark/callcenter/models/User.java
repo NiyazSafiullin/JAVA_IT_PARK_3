@@ -2,11 +2,12 @@ package ru.itpark.callcenter.models;
 
 import lombok.*;
 
+
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "groups")
+@Table(name = "new_user")
 @Getter
 @Setter
 @AllArgsConstructor
@@ -21,11 +22,19 @@ public class User {
 
     private String name;
     private String surname;
-    private int superviser;
+    private String email;
 
-    //private String passport;
-//private int group;
-    //private String hashPassword;
+    private String hashPassword;
 
     private LocalDateTime registrationTime;
+
+    private String confirmCode;
+    private LocalDateTime expiredDate;
+
+    @Enumerated(value = EnumType.STRING)
+    private State state;
+
+    @Enumerated(value = EnumType.STRING)
+    private Role role;
+
 }

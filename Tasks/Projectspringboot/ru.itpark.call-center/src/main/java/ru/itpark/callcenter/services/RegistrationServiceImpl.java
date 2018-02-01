@@ -28,7 +28,7 @@ public class RegistrationServiceImpl implements RegistrationService {
              //   .email(form.getEmail())
                 .surname(form.getSurname())
                // .hashPassword(hashPassword)
-                .registrationTime(registrationTime)
+              //  .registrationTime(registrationTime)
                 .build();
 
         usersRepository.save(newUser);

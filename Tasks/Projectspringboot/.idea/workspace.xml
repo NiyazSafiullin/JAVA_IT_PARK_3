@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5a01a677-a53e-4ed3-b24e-e096466ffc0e" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/controllers/ClientsController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/forms/NamesForm.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/forms/RegistrationClients.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/models/Client.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/models/State.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/repositories/ClientRepository.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/ClientService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/ClientServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/RegistrationClient.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/RegistrationClientsImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/resources/templates/call_page.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/resources/templates/client_page.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/resources/templates/clients_page.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/resources/templates/common/header.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/resources/templates/confirm_result_page.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/resources/templates/registration_system.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/resources/templates/success_calls.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/resources/templates/user_page.ftl" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/Task22/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HomeWork/Task22/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/.idea/dataSources.xml" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/.idea/dataSources/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/.idea/dataSources/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19/storage_v2/_src_/database/safiullin_db.1Jgajg/schema/public.abK9xQ.meta" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/.idea/dataSources/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19/storage_v2/_src_/database/safiullin_db.1Jgajg/schema/public.abK9xQ.meta" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/pom.xml" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/ru.itpark.call-center.iml" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/ru.itpark.call-center.iml" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/safiullin_db_public_positions.sql" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/safiullin_db_public_positions.sql" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/controllers/CallsController.java" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/controllers/CallsController.java" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/controllers/RegistrationCallsController.java" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/controllers/RegistrationCallsController.java" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/controllers/RegistrationController.java" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/controllers/RegistrationController.java" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/controllers/UsersController.java" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/controllers/UsersController.java" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/forms/RegistrationCallsForm.java" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/forms/RegistrationCallsForm.java" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/forms/RegistrationForm.java" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/forms/RegistrationForm.java" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/models/User.java" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/models/User.java" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/models/calls.java" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/models/Сalls.java" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/repositories/CallsRepository.java" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/repositories/CallsRepository.java" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/repositories/UsersRepository.java" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/repositories/UsersRepository.java" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/CallsService.java" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/CallsService.java" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/CallsServiceImpl.java" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/CallsServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/RegistrationCallsImpl.java" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/RegistrationCallsImpl.java" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/RegistrationService.java" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/RegistrationService.java" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/RegistrationServiceImpl.java" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/RegistrationServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/UsersService.java" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/UsersService.java" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/UsersServiceImpl.java" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/UsersServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/resources/templates/calls_page.ftl" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/resources/templates/calls_page.ftl" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/resources/templates/registration_calls.ftl" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/resources/templates/registration_calls.ftl" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/resources/templates/registration_page.ftl" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/resources/templates/registration_page.ftl" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/resources/templates/success.ftl" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/resources/templates/success.ftl" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/resources/templates/users_page.ftl" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/src/main/resources/templates/users_page.ftl" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/application.properties" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/application.properties" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/controllers/CallsController.class" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/controllers/CallsController.class" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/controllers/RegistrationCallsController.class" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/controllers/RegistrationCallsController.class" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/controllers/RegistrationController.class" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/controllers/RegistrationController.class" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/controllers/UsersController.class" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/controllers/UsersController.class" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/forms/RegistrationCallsForm.class" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/forms/RegistrationCallsForm.class" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/forms/RegistrationForm.class" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/forms/RegistrationForm.class" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/models/User$UserBuilder.class" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/models/User$UserBuilder.class" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/models/User.class" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/models/User.class" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/models/calls$callsBuilder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/models/calls.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/repositories/CallsRepository.class" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/repositories/CallsRepository.class" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/repositories/UsersRepository.class" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/repositories/UsersRepository.class" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/CallsService.class" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/CallsService.class" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/CallsServiceImpl.class" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/CallsServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/RegistrationCallsImpl.class" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/RegistrationCallsImpl.class" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/RegistrationService.class" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/RegistrationService.class" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/RegistrationServiceImpl.class" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/RegistrationServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/UsersService.class" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/UsersService.class" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/UsersServiceImpl.class" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/UsersServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/templates/calls_page.ftl" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/templates/calls_page.ftl" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/templates/registration_calls.ftl" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/templates/registration_calls.ftl" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/templates/registration_page.ftl" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/templates/registration_page.ftl" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/templates/success.ftl" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/templates/success.ftl" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/templates/users_page.ftl" afterPath="$PROJECT_DIR$/../HomeWork/ru.itpark.call-center/target/classes/templates/users_page.ftl" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/ru.itpark.call-center/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/ru.itpark.call-center/.idea/dataSources.xml" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/.idea/dataSources/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/.idea/dataSources/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19/storage_v2/_src_/database/safiullin_db.1Jgajg/schema/public.abK9xQ.meta" afterPath="$PROJECT_DIR$/ru.itpark.call-center/.idea/dataSources/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19/storage_v2/_src_/database/safiullin_db.1Jgajg/schema/public.abK9xQ.meta" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/.idea/workspace.xml" afterPath="$PROJECT_DIR$/ru.itpark.call-center/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/pom.xml" afterPath="$PROJECT_DIR$/ru.itpark.call-center/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/ru.itpark.call-center.iml" afterPath="$PROJECT_DIR$/ru.itpark.call-center/ru.itpark.call-center.iml" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/controllers/CallsController.java" afterPath="$PROJECT_DIR$/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/controllers/CallsController.java" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/controllers/UsersController.java" afterPath="$PROJECT_DIR$/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/controllers/UsersController.java" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/forms/RegistrationForm.java" afterPath="$PROJECT_DIR$/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/forms/RegistrationForm.java" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/models/calls.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/repositories/CallsRepository.java" afterPath="$PROJECT_DIR$/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/repositories/CallsRepository.java" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/CallsService.java" afterPath="$PROJECT_DIR$/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/CallsService.java" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/CallsServiceImpl.java" afterPath="$PROJECT_DIR$/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/CallsServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/RegistrationServiceImpl.java" afterPath="$PROJECT_DIR$/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/RegistrationServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/UsersService.java" afterPath="$PROJECT_DIR$/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/UsersService.java" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/UsersServiceImpl.java" afterPath="$PROJECT_DIR$/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/UsersServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/ru.itpark.call-center/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/src/main/resources/banner.txt" afterPath="$PROJECT_DIR$/ru.itpark.call-center/src/main/resources/banner.txt" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/src/main/resources/temp/CallsService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/src/main/resources/temp/CallsServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/src/main/resources/temp/RegistrationCalls.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/src/main/resources/temp/RegistrationCallsController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/src/main/resources/temp/RegistrationCallsForm.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/src/main/resources/temp/RegistrationCallsImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/src/main/resources/templates/calls_page.ftl" afterPath="$PROJECT_DIR$/ru.itpark.call-center/src/main/resources/templates/calls_page.ftl" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/src/main/resources/templates/registration_calls.ftl" afterPath="$PROJECT_DIR$/ru.itpark.call-center/src/main/resources/templates/registration_calls.ftl" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/src/main/resources/templates/registration_page.ftl" afterPath="$PROJECT_DIR$/ru.itpark.call-center/src/main/resources/templates/registration_page.ftl" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/src/main/resources/templates/users_page.ftl" afterPath="$PROJECT_DIR$/ru.itpark.call-center/src/main/resources/templates/users_page.ftl" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/application.properties" afterPath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/application.properties" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/banner.txt" afterPath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/banner.txt" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/ru/itpark/callcenter/controllers/CallsController.class" afterPath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/ru/itpark/callcenter/controllers/CallsController.class" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/ru/itpark/callcenter/controllers/UsersController.class" afterPath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/ru/itpark/callcenter/controllers/UsersController.class" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/ru/itpark/callcenter/forms/RegistrationForm.class" afterPath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/ru/itpark/callcenter/forms/RegistrationForm.class" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/ru/itpark/callcenter/models/calls$callsBuilder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/ru/itpark/callcenter/models/calls.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/ru/itpark/callcenter/repositories/CallsRepository.class" afterPath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/ru/itpark/callcenter/repositories/CallsRepository.class" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/CallsService.class" afterPath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/CallsService.class" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/CallsServiceImpl.class" afterPath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/CallsServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/RegistrationServiceImpl.class" afterPath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/RegistrationServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/UsersService.class" afterPath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/UsersService.class" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/UsersServiceImpl.class" afterPath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/UsersServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/temp/CallsService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/temp/CallsServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/temp/RegistrationCalls.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/temp/RegistrationCallsController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/temp/RegistrationCallsForm.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/temp/RegistrationCallsImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/templates/calls_page.ftl" afterPath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/templates/calls_page.ftl" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/templates/registration_calls.ftl" afterPath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/templates/registration_calls.ftl" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/templates/registration_page.ftl" afterPath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/templates/registration_page.ftl" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/templates/users_page.ftl" afterPath="$PROJECT_DIR$/ru.itpark.call-center/target/classes/templates/users_page.ftl" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="543" />
+    <option name="width" value="1391" />
+    <option name="height" value="955" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Projectspringboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projectspringboot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projectspringboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projectspringboot" type="462c0819:PsiDirectoryNode" />
+              <item name="ru.itpark.call-center" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projectspringboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projectspringboot" type="462c0819:PsiDirectoryNode" />
+              <item name="ru.itpark.call-center" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projectspringboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projectspringboot" type="462c0819:PsiDirectoryNode" />
+              <item name="ru.itpark.call-center" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ru.itpark.call-center" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a01a677-a53e-4ed3-b24e-e096466ffc0e" name="Default" comment="" />
+      <created>1517398635131</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517398635131</updated>
+      <workItem from="1517398636865" duration="324000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="324000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

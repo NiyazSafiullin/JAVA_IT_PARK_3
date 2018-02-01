@@ -6,21 +6,22 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-<h1>Добавить группу звонка</h1>
+<#include 'common/header.ftl'/>
 <form class="form-style-4" title="Регистрация"
       name="registrationForm"
       method="post"
       action="/registration">
-
     <input type="text" name="name" placeholder="Имя"/>
     <br>
     <input type="text" name="surname" placeholder="Фамилия"/>
     <br>
-    <input type="text" name="superviser" placeholder="Супервайзер"/>
+    <input type="text" name="email" placeholder="Почта"/>
+    <br>
+    <input type="password" name="password" placeholder="Пароль"/>
     <br>
 
-    <textarea name="description" onkeyup="adjust_textarea(this)"></textarea> <br><br>
-    <input type="submit"/ value="Добавить">
+    <textarea name="description" onkeyup="adjust_textarea(this)"></textarea>
+    <input type="submit"/>
 </form>
 </body>
 </html>

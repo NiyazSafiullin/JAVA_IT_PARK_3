@@ -1,7 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdf06ace-3306-415d-9504-af0a144c61c8" name="Default" comment="" />
+    <list default="true" id="cdf06ace-3306-415d-9504-af0a144c61c8" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/controllers/ClientsController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/forms/NamesForm.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/forms/RegistrationClients.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/models/Client.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/models/State.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/repositories/ClientRepository.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/ClientService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/ClientServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/RegistrationClient.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/RegistrationClientsImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/resources/templates/call_page.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/resources/templates/client_page.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/resources/templates/clients_page.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/resources/templates/common/header.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/resources/templates/confirm_result_page.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/resources/templates/registration_system.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/resources/templates/success_calls.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/resources/templates/user_page.ftl" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/Task22/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../HomeWork/Task22/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/.idea/dataSources.xml" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/.idea/dataSources/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/.idea/dataSources/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19/storage_v2/_src_/database/safiullin_db.1Jgajg/schema/public.abK9xQ.meta" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/.idea/dataSources/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19/storage_v2/_src_/database/safiullin_db.1Jgajg/schema/public.abK9xQ.meta" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/pom.xml" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/ru.itpark.call-center.iml" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/ru.itpark.call-center.iml" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/safiullin_db_public_positions.sql" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/safiullin_db_public_positions.sql" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/controllers/CallsController.java" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/controllers/CallsController.java" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/controllers/RegistrationCallsController.java" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/controllers/RegistrationCallsController.java" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/controllers/RegistrationController.java" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/controllers/RegistrationController.java" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/controllers/UsersController.java" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/controllers/UsersController.java" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/forms/RegistrationCallsForm.java" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/forms/RegistrationCallsForm.java" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/forms/RegistrationForm.java" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/forms/RegistrationForm.java" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/models/User.java" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/models/User.java" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/models/calls.java" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/models/Сalls.java" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/repositories/CallsRepository.java" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/repositories/CallsRepository.java" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/repositories/UsersRepository.java" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/repositories/UsersRepository.java" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/CallsService.java" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/CallsService.java" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/CallsServiceImpl.java" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/CallsServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/RegistrationCallsImpl.java" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/RegistrationCallsImpl.java" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/RegistrationService.java" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/RegistrationService.java" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/RegistrationServiceImpl.java" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/RegistrationServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/UsersService.java" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/UsersService.java" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/UsersServiceImpl.java" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/services/UsersServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/resources/templates/calls_page.ftl" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/resources/templates/calls_page.ftl" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/resources/templates/registration_calls.ftl" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/resources/templates/registration_calls.ftl" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/resources/templates/registration_page.ftl" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/resources/templates/registration_page.ftl" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/resources/templates/success.ftl" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/resources/templates/success.ftl" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/resources/templates/users_page.ftl" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/src/main/resources/templates/users_page.ftl" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/application.properties" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/application.properties" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/controllers/CallsController.class" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/controllers/CallsController.class" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/controllers/RegistrationCallsController.class" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/controllers/RegistrationCallsController.class" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/controllers/RegistrationController.class" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/controllers/RegistrationController.class" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/controllers/UsersController.class" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/controllers/UsersController.class" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/forms/RegistrationCallsForm.class" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/forms/RegistrationCallsForm.class" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/forms/RegistrationForm.class" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/forms/RegistrationForm.class" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/models/User$UserBuilder.class" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/models/User$UserBuilder.class" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/models/User.class" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/models/User.class" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/models/calls$callsBuilder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/models/calls.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/repositories/CallsRepository.class" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/repositories/CallsRepository.class" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/repositories/UsersRepository.class" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/repositories/UsersRepository.class" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/CallsService.class" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/CallsService.class" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/CallsServiceImpl.class" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/CallsServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/RegistrationCallsImpl.class" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/RegistrationCallsImpl.class" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/RegistrationService.class" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/RegistrationService.class" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/RegistrationServiceImpl.class" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/RegistrationServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/UsersService.class" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/UsersService.class" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/UsersServiceImpl.class" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/UsersServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/templates/calls_page.ftl" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/templates/calls_page.ftl" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/templates/registration_calls.ftl" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/templates/registration_calls.ftl" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/templates/registration_page.ftl" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/templates/registration_page.ftl" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/templates/success.ftl" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/templates/success.ftl" />
+      <change beforePath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/templates/users_page.ftl" afterPath="$PROJECT_DIR$/../../HomeWork/ru.itpark.call-center/target/classes/templates/users_page.ftl" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19/storage_v2/_src_/database/safiullin_db.1Jgajg/schema/public.abK9xQ.meta" afterPath="$PROJECT_DIR$/.idea/dataSources/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19/storage_v2/_src_/database/safiullin_db.1Jgajg/schema/public.abK9xQ.meta" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/ru.itpark.call-center.iml" afterPath="$PROJECT_DIR$/ru.itpark.call-center.iml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/CallsController.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/CallsController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/UsersController.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/UsersController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/forms/RegistrationForm.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/forms/RegistrationForm.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/models/calls.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/repositories/CallsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/repositories/CallsRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/CallsService.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/CallsService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/CallsServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/CallsServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/RegistrationServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/RegistrationServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/UsersService.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/UsersService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/UsersServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/UsersServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/temp/CallsService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/temp/CallsServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/temp/RegistrationCalls.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/temp/RegistrationCallsController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/temp/RegistrationCallsForm.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/temp/RegistrationCallsImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/calls_page.ftl" afterPath="$PROJECT_DIR$/src/main/resources/templates/calls_page.ftl" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration_calls.ftl" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration_calls.ftl" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration_page.ftl" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration_page.ftl" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users_page.ftl" afterPath="$PROJECT_DIR$/src/main/resources/templates/users_page.ftl" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
+      <change beforePath="$PROJECT_DIR$/target/classes/banner.txt" afterPath="$PROJECT_DIR$/target/classes/banner.txt" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/controllers/CallsController.class" afterPath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/controllers/CallsController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/controllers/UsersController.class" afterPath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/controllers/UsersController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/forms/RegistrationForm.class" afterPath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/forms/RegistrationForm.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/models/calls$callsBuilder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/models/calls.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/repositories/CallsRepository.class" afterPath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/repositories/CallsRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/services/CallsService.class" afterPath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/services/CallsService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/services/CallsServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/services/CallsServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/services/RegistrationServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/services/RegistrationServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/services/UsersService.class" afterPath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/services/UsersService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/services/UsersServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/services/UsersServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/temp/CallsService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/temp/CallsServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/temp/RegistrationCalls.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/temp/RegistrationCallsController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/temp/RegistrationCallsForm.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/temp/RegistrationCallsImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/calls_page.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/calls_page.ftl" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/registration_calls.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/registration_calls.ftl" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/registration_page.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/registration_page.ftl" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/users_page.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/users_page.ftl" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,41 +155,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="safiullin_db@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="safiullin_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="safiullin_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="safiullin_db: database" type="6d9b600a:PostgresImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="safiullin_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="safiullin_db: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="safiullin_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="safiullin_db: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="safiullin_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="safiullin_db: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="calls: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
-      </path>
     </expand>
     <select />
   </component>
@@ -68,41 +163,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/app/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CallsController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/CallsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegistrationController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/RegistrationController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegistrationCallsController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/RegistrationCallsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="RegistrationCalls.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/temp/RegistrationCalls.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/RegistrationCalls.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="200">
+              <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calls_page.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/calls_page.ftl">
+      <file leaf-file-name="registration_system.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registration_system.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registration_page.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registration_page.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registration_calls.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registration_calls.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="375">
+              <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -111,62 +238,29 @@
       <file leaf-file-name="RegistrationForm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/forms/RegistrationForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CallsRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/repositories/CallsRepository.java">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/models/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistrationController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/RegistrationController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+            <state relative-caret-position="275">
+              <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CallsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/CallsController.java">
+      <file leaf-file-name="header.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/common/header.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsersController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/UsersController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="groups" pinned="false" current-in-tab="false">
-        <entry file="das://table:/74be4a47/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19/safiullin_db.public.groups">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -184,6 +278,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>у</find>
+      <find>services</find>
+      <find>registrationUser</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -197,29 +293,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/controllers/RegistrationController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/UsersController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/app/controllers/UsersController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/app/app/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/services/UsersServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/repositories/UsersRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/UsersServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/app/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/forms/RegistrationForm.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/resources/js/form_script.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/CallsRegistrationServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/CallsRepository.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/CallsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/CallsRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/models/calls.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/calls_page.ftl" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/users_page.ftl" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/forms/RegistrationCallsForm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/RegistrationServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/RegistrationCalls.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/RegistrationController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/models/RegistrationController.java" />
@@ -232,22 +311,39 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/RegistrationCalls.java" />
         <option value="$PROJECT_DIR$/src/main/resources/temp/RegistrationCallsImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/RegistrationCallsImpll.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/registration_page.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/temp/RegistrationCallsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/RegistrationController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/temp/RegistrationCallsForm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/RegistrationCallsImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/registration_calls.ftl" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/RegistrationCallsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/RegistrationCalls.java" />
         <option value="$PROJECT_DIR$/src/main/resources/temp/RegistrationCalls.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/UsersService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/models/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/UsersController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/CallsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/CallsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/repositories/CallsRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/RegistrationCalls.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/RegistrationController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/banner.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/users_page.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/models/calls.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/CallsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/CallsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/CallsController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/success_calls.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/RegistrationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/repositories/CallsRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/RegistrationCallsController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/registration_page.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/calls_page.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/models/Сalls.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/RegistrationCallsImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/forms/RegistrationCallsForm.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/registration_calls.ftl" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/user_page.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/forms/NamesForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/UsersService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/UsersController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/UsersServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/forms/Registrationsystem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/forms/RegistrationForm.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/registration_system.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -280,7 +376,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="702" />
     <option name="y" value="61" />
     <option name="width" value="1391" />
@@ -304,8 +400,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -406,30 +504,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ru.itpark.call-center" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ru.itpark.call-center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="temp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ru.itpark.call-center" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ru.itpark.call-center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ru.itpark.call-center" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ru.itpark.call-center" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -437,8 +522,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.256705" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -447,6 +532,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -456,9 +542,9 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marse\Desktop\SAFIULLIN\JAVA_IT_PARK_3\Tasks\HomeWork\ru.itpark.call-center\src\main\java\ru\itpark\callcenter\services" />
       <recent name="C:\Users\Marse\Desktop\SAFIULLIN\JAVA_IT_PARK_3\Tasks\HomeWork\ru.itpark.call-center\src\main\java\ru\itpark\callcenter\controllers" />
       <recent name="C:\Users\Marse\Desktop\SAFIULLIN\JAVA_IT_PARK_3\Tasks\HomeWork\ru.itpark.call-center\src\main\java\ru\itpark\callcenter\forms" />
-      <recent name="C:\Users\Marse\Desktop\SAFIULLIN\JAVA_IT_PARK_3\Tasks\HomeWork\ru.itpark.call-center\src\main\java\ru\itpark\callcenter\services" />
       <recent name="C:\Users\Marse\Desktop\SAFIULLIN\JAVA_IT_PARK_3\Tasks\HomeWork\ru.itpark.call-center\src\main\resources\temp" />
       <recent name="C:\Users\Marse\Desktop\SAFIULLIN\JAVA_IT_PARK_3\Tasks\HomeWork\ru.itpark.call-center\src\main\java\ru\itpark\callcenter\repositories" />
     </key>
@@ -609,49 +695,70 @@
       <updated>1516733112686</updated>
       <workItem from="1516733118770" duration="8810000" />
       <workItem from="1516774738250" duration="27744000" />
-      <workItem from="1516859925741" duration="23582000" />
+      <workItem from="1516859925741" duration="29962000" />
+      <workItem from="1516947912586" duration="574000" />
+      <workItem from="1516952892450" duration="1417000" />
+      <workItem from="1516964751127" duration="82000" />
+      <workItem from="1516965369171" duration="1327000" />
+      <workItem from="1516967064672" duration="79000" />
+      <workItem from="1516967452522" duration="281000" />
+      <workItem from="1516968654894" duration="1762000" />
+      <workItem from="1516970481858" duration="117000" />
+      <workItem from="1516986717086" duration="199000" />
+      <workItem from="1516990079981" duration="386000" />
+      <workItem from="1516997643536" duration="1740000" />
+      <workItem from="1516999437620" duration="1767000" />
+      <workItem from="1517001251914" duration="1067000" />
+      <workItem from="1517068889550" duration="153000" />
+      <workItem from="1517069413407" duration="610000" />
+      <workItem from="1517070109308" duration="112000" />
+      <workItem from="1517070253673" duration="729000" />
+      <workItem from="1517071010759" duration="13621000" />
+      <workItem from="1517392643471" duration="83000" />
+      <workItem from="1517398963891" duration="207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60136000" />
+    <option name="totallyTimeSpent" value="92829000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35663506" sideWeight="0.50972974" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2064865" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24895833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972972" sideWeight="0.48815167" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.4864865" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287827" sideWeight="0.4864865" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46445498" sideWeight="0.49027026" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38794085" sideWeight="0.48177084" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.49583334" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.49783784" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2627027" sideWeight="0.47857141" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27760416" sideWeight="0.47857141" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25351351" sideWeight="0.51428574" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25351351" sideWeight="0.5214286" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -703,105 +810,8 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/UsersService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/UsersServiceImpl.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="747" column="0" lean-forward="false" selection-start-line="747" selection-start-column="0" selection-end-line="747" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/banner.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/74be4a47/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19/safiullin_db.public.line_staff">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/74be4a47/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19/safiullin_db.public.line">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ru.itpark.call-center.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/js/form_script.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/CallsRegistrationServiceImpl.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/InjectionMetadata.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="584" column="0" lean-forward="false" selection-start-line="584" selection-start-column="0" selection-end-line="584" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/banner.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="34" column="65" lean-forward="false" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/RegistrationCallsmpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/temp/RegistrationCallsController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/RegistrationCallsmpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/RegistrationCallsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
@@ -809,106 +819,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/temp/CallsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/RegistrationCallsImpll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/temp/CallsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/temp/RegistrationCallsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#871#872#0" expanded="false" />
-            <element signature="e#913#914#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/temp/RegistrationCallsForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/temp/RegistrationCallsImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/74be4a47/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19/safiullin_db.public.employees">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/74be4a47/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19/safiullin_db.public.positions">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/repositories/UsersRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/users_page.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/RegistrationCallsImpll.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/temp/CallsServiceImpl.java" />
+    <entry file="das://table:/74be4a47/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19/safiullin_db.public.positions" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/temp/CallsService.java" />
+    <entry file="das://sequence:/74be4a47/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19/safiullin_db.public.employees_id_seq" />
+    <entry file="das://sequence:/74be4a47/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19/safiullin_db.public.groups_id_seq" />
+    <entry file="das://table:/74be4a47/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19/safiullin_db.public.employees" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/banner.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/74be4a47/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19/safiullin_db.public.groups" />
+    <entry file="das://table:/74be4a47/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19/safiullin_db.public.calls" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/aecac24c-5b77-4b97-b908-da8855442cdd/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/bind/annotation/ModelAttribute.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/CallsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/success_calls.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/CallsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="49" lean-forward="false" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/models/Сalls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/repositories/CallsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/RegistrationCallsImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/RegistrationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -916,15 +909,97 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/success.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <caret line="10" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.ftl" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registration_page.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registration_calls.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/calls_page.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/RegistrationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/CallsService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/repositories/UsersRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
+        <state relative-caret-position="100">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/forms/RegistrationCallsForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/74be4a47/aecac24c-5b77-4b97-b908-da8855442cdd/safiullin_db.public.line" />
+    <entry file="das://table:/74be4a47/aecac24c-5b77-4b97-b908-da8855442cdd/safiullin_db.public.employees" />
+    <entry file="das://table:/74be4a47/aecac24c-5b77-4b97-b908-da8855442cdd/safiullin_db.public.calls" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="78" column="10" lean-forward="false" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/users_page.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user_page.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/forms/NamesForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/UsersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
@@ -933,155 +1008,102 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/UsersService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="40" />
+        <state relative-caret-position="171">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/RegistrationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/RegistrationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/UsersServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="800">
+          <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/app/Application.java">
+    <entry file="das://table:/74be4a47/aecac24c-5b77-4b97-b908-da8855442cdd/safiullin_db.public.groups" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/common/header.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1421#1422#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/models/calls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/CallsServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/forms/Registrationsystem.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/RegistrationCalls.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registration_page.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/calls_page.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registration_system.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registration_calls.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/74be4a47/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19/safiullin_db.public.groups">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/74be4a47/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19/safiullin_db.public.calls">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/repositories/CallsRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/UsersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/CallsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/temp/RegistrationCalls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        <state relative-caret-position="375">
+          <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/forms/RegistrationForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/app/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/CallsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/RegistrationCallsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/RegistrationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        <state relative-caret-position="73">
+          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1095,7 +1117,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.256705" />
               </list>
             </option>
           </splitter-proportions>
@@ -1107,7 +1129,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.256705" />
               </list>
             </option>
           </splitter-proportions>
@@ -1130,7 +1152,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.256705" />
               </list>
             </option>
           </splitter-proportions>
@@ -1138,12 +1160,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>call-center|itpark|ru</last-edited>
+          <last-edited>Spring|call-center|itpark|ru</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.256705" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1155,7 +1176,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.256705" />
               </list>
             </option>
           </splitter-proportions>

@@ -1,15 +1,17 @@
 <#ftl encoding='UTF-8'>
 <html>
 <head>
-    <title>News- Регистрация</title>
+    <title>Регистрация группа звонков</title>
     <script type="text/javascript" src="/js/form_script.js"></script>
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+<h1 align="center">Добавить группу звонка</h1>
 <form class="form-style-4" title="Регистрация"
       name="registrationForm"
       method="post"
       action="/registration">
+
     <input type="text" name="name" placeholder="Имя"/>
     <br>
     <input type="text" name="surname" placeholder="Фамилия"/>

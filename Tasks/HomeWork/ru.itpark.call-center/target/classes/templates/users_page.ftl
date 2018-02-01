@@ -3,7 +3,7 @@
 <@spring.bind "model"/>
 <html>
 <head>
-    <title>News- Регистрация</title>
+    <title>БД групп</title>
 </head>
 <body>
 <table>
@@ -16,7 +16,7 @@
     <tr>
         <td>${user.id}</td>
         <td>${user.name}</td>
-        <td>${user.superviser}</td>
+        <td>${user.email}</td>
     </tr>
     </#list>
 </table>
