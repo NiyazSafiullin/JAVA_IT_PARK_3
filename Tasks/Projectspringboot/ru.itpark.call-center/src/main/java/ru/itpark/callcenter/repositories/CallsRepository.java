@@ -4,11 +4,14 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import ru.itpark.callcenter.models.Сalls;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface CallsRepository extends JpaRepository <Сalls, Long> {
-   // List<calls> findByOrderByRegistrationTimeDesc();
+    List<Сalls> findByOrderByRegistrationTimeDesc();
     List<Сalls> findByOrderById();
- // List<calls> findByOrderByName();
+ //List<Сalls> findByOrderByName();
+// Optional<Сalls> findByConfirmCode(String confirmCode);
+
 
 
 }

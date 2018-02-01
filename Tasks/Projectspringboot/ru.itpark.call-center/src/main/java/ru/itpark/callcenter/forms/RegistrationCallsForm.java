@@ -2,7 +2,10 @@ package ru.itpark.callcenter.forms;
 
 import lombok.Data;
 import lombok.ToString;
+import ru.itpark.callcenter.models.State;
 
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import java.time.LocalDateTime;
 import java.util.Date;
 
@@ -17,4 +20,7 @@ public class RegistrationCallsForm {
     private String talk_time;
     private String hold_time;
     private LocalDateTime registrationTime;
+    @Enumerated(value = EnumType.STRING)
+    private State state;
+
 }

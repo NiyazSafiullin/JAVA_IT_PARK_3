@@ -1,4 +1,4 @@
-package ru.itpark.callcenter.controllers;
+package temp;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

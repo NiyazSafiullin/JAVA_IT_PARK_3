@@ -17,10 +17,10 @@
     <br>
     <input type="text" name="employee" placeholder="Номер сотрудника звонка"/>
     <br>
-    <input type="text" name="talk_time" placeholder="Время разговора (в минутах)"/>
-    <br>
-    <input type="text" name="hold_time" placeholder="Время ожидания (в минутах)"/>
-    <br>
+    <#--<input type="text" name="talk_time" placeholder="Время разговора (в минутах)"/>-->
+    <#--<br>-->
+    <#--<input type="text" name="hold_time" placeholder="Время ожидания (в минутах)"/>-->
+    <#--<br>-->
 
     <textarea name="description" onkeyup="adjust_textarea(this)"></textarea> <br><br>
     <input type="submit"/ value="Отправить">

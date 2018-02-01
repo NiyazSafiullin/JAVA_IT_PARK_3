@@ -14,7 +14,9 @@
     </tr>
     <#list model.calls as call>
     <tr>
+        <#--<td>${call.id}</td>-->
         <td>${call.time}</td>
+        <td>${call.employee}</td>
         <td>${call.line}</td>
 
     </tr>

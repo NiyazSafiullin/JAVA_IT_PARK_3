@@ -16,7 +16,7 @@
     <tr>
         <td>${user.id}</td>
         <td>${user.name}</td>
-        <td>${user.superviser}</td>
+        <td>${user.email}</td>
     </tr>
     </#list>
 </table>

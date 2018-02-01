@@ -1,6 +1,7 @@
 package ru.itpark.callcenter.services;
 
 
+import ru.itpark.callcenter.models.Client;
 import ru.itpark.callcenter.models.User;
 import ru.itpark.callcenter.forms.NamesForm;
 
@@ -9,7 +10,9 @@ import ru.itpark.callcenter.forms.NamesForm;
 public interface UsersService {
     List<User> getUsers(String orderBy);
 
-    User getUsers(Long userId);
+    User getUser(Long userId);
 
     void update(Long userId, NamesForm form);
+
+
 }

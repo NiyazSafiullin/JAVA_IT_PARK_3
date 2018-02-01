@@ -26,7 +26,8 @@ public class Сalls {
     private String talk_time;
     private String hold_time;
     private LocalDateTime registrationTime;
-
+    @Enumerated(value = EnumType.STRING)
+    private State state;
 
 
 }

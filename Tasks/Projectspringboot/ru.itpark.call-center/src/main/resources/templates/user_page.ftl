@@ -7,8 +7,10 @@
     <title>Просмотр пользователя</title>
 </head>
 <body>
+
 <#--<#include 'common/header.ftl'/>-->
 <script>
+
     <#--Функция принимает на вход два параметра - имя и фамилию -->
     function sendNewNameOrSurName(name, surname) {
         // Оотправляем ajax-запорс на сервер
@@ -29,8 +31,10 @@
     }
 </script>
 <div>
+
     <input type="text" id="name" name="name" value="${model.user.name}"/>
     <input type="text" id="surname" name="surname" value="${model.user.surname}"/>
+    <#--<input type="text" id="surname" name="registration_time" value="${model.user.registration_time}"/>-->
     <button onclick="sendNewNameOrSurName(
         document.getElementById('name').value,
         document.getElementById('surname').value)">Отправить</button>
