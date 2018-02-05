@@ -1,9 +1,10 @@
-package ru.itpark.callcenter.services;
+package temp;
 import org.springframework.stereotype.Service;
 import ru.itpark.callcenter.forms.RegistrationClients;
-@Service
-public interface RegistrationClient {
-    Long registration(RegistrationClients form);
 
-   // boolean confirm(String confirmString);
+public interface RegistrationClient {
+    String registrationClients(RegistrationClients form);
+  //    boolean confirm2(String confirm2String);
+
+
 }
