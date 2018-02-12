@@ -6,8 +6,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 import ru.itpark.callcenter.forms.NamesForm;
+import ru.itpark.callcenter.models.Services;
 import ru.itpark.callcenter.models.User;
 import ru.itpark.callcenter.services.AuthenticationService;
+import ru.itpark.callcenter.services.RegistrationServices;
 import ru.itpark.callcenter.services.UsersService;
 import org.springframework.http.ResponseEntity;
 
@@ -30,6 +32,16 @@ public class UsersController {
         return "profile";
     }
 
+//    @GetMapping(value = "/usersearch")
+//    public String getSearchePage(Authentication authentication,
+//            @ModelAttribute("model") ModelMap model) {
+//        if (authentication != null) {
+//            User user = authenticationService.getUserByAuthentication(authentication);
+//            model.addAttribute("user", user);
+//
+//        }
+//        return "search_user";
+//    }
 
     @GetMapping(value = "/users")
     public String getUsers(@ModelAttribute("model")ModelMap model,
@@ -54,4 +66,9 @@ public class UsersController {
         return ResponseEntity.accepted().build();
     }
 
+    @GetMapping("/all/users/{user-id}")
+    @ResponseBody
+    public ResponseEntity<User> getUser(@PathVariable("user-id") Long userId) {
+        return ResponseEntity.ok(service.getUser(userId));
+    }
 }

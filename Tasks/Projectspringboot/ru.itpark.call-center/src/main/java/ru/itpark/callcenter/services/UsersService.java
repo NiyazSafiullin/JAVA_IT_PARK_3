@@ -1,7 +1,6 @@
 package ru.itpark.callcenter.services;
 
 
-import ru.itpark.callcenter.models.Client;
 import ru.itpark.callcenter.models.User;
 import ru.itpark.callcenter.forms.NamesForm;
 

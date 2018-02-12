@@ -1,1 +1,1 @@
-INSERT INTO public.calls (time, line, employee, talk_time, hold_time, id, registration_time, client, service, state) VALUES ('12', 1, 1, '1', '1', 1, null, 1, 1, null);
+INSERT INTO public.eservice (time, usluga, employee, talk_time, hold_time, id, registration_time, newuser, service, state) VALUES ('12', 1, 1, '1', '1', 1, null, 1, 1, null);

@@ -1,13 +1,16 @@
 <#ftl encoding='UTF-8'>
 <html>
 <head>
-    <title>News- Регистрация</title>
+    <title>Регистрация</title>
     <script type="text/javascript" src="/js/form_script.js"></script>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style_page.css">
 </head>
 <body>
+<div class="container">
+    <section id="content">
+
 <#include 'common/header.ftl'/>
-<form class="form-style-4" title="Регистрация в системе получения услуг"
+<form  title="Регистрация в системе получения услуг"
       name="registrationForm"
       method="post"
       action="/registration">
@@ -19,10 +22,12 @@
     <br>
     <input type="password" name="password" placeholder="Пароль"/>
     <br><br>
-    <textarea name="description" onkeyup="adjust_textarea(this)"></textarea> <br><br>
-    <p><input type="submit" value="Зарегистрироваться"/></p>
+    <p><input type="submit" value="Зарегистрироваться"/> </p>
+    <p><a href="login.ftl">Вход, для зарегистрированных пользователей</p>
+    <p style="text-align: center"><a href="/">Вернуться в главное меню</a></p>
 
 </form>
-
+</section>
+    </div>
 </body>
 </html>

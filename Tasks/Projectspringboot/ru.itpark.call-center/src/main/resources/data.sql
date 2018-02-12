@@ -1,4 +1,11 @@
-INSERT INTO new_user
+CREATE TABLE IF NOT EXISTS persistent_logins (
+  username VARCHAR(64) NOT NULL,
+  series VARCHAR(64) PRIMARY KEY NOT NULL,
+  token VARCHAR(64) NOT NULL,
+  last_used TIMESTAMP NOT NULL
+);
+
+INSERT INTO newuser
 (id, email, hash_password, state, role)
   SELECT
     1,
@@ -9,6 +16,6 @@ INSERT INTO new_user
   WHERE
     NOT EXISTS(
         SELECT id
-        FROM new_user
+        FROM newuser
         WHERE id = 1
     );

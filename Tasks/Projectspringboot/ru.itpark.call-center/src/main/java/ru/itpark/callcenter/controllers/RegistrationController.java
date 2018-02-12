@@ -5,13 +5,16 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 import ru.itpark.callcenter.forms.RegistrationForm;
+//import temp.RegistrationClients;
 import ru.itpark.callcenter.services.RegistrationService;
+//import temp.RegistrationClient;
 
 @Controller
 public class RegistrationController {
 
     @Autowired
     private RegistrationService service;
+
 
     @PostMapping("/registration")
     public String registrationUser(@ModelAttribute RegistrationForm form,
@@ -27,11 +30,20 @@ public class RegistrationController {
     public String getRegistrationPage() {
         return "registration_page";
     }
+
+
+
+
+
+
+
+
     @GetMapping("/confirm/{confirm-string}")
     public String getConfirmPage(
             @ModelAttribute("model") ModelMap model,
             @PathVariable("confirm-string") String confirmString) {
         boolean result = service.confirm(confirmString);
+
         model.addAttribute("result", result);
         return "confirm_result_page";
     }

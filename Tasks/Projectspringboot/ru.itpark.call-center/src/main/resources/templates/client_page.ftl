@@ -4,9 +4,11 @@
 <html>
 <head>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
     <title>Просмотр пользователей системы</title>
 </head>
 <body>
+<form class="form-style-4">
 <#--<#include 'common/header.ftl'/>-->
 <script>
 
@@ -30,15 +32,17 @@
         });
     }
 </script>
+
 <div>
 
     <input type="text" id="name" name="name" value="${model.clients.name}"/>
     <input type="text" id="surname" name="surname" value="${model.clients.surname}"/>
-<#--<input type="text" id="email" name="email" value="${model.client.email}"/>-->
-    <button onclick="sendNewNameOrSurName(
+<#--<input type="text" id="email" name="email" value="${model.client.email}"/>--><br><br>
+   <p> <button onclick="sendNewNameOrSurName(
         document.getElementById('name').value,
-        document.getElementById('surname').value)">Отправить</button>
+        document.getElementById('surname').value)">Отправить</button></p>
 
 </div>
-
+</form>
 </body>
+</html>

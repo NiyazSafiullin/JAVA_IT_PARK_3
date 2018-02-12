@@ -1,49 +1,64 @@
 package temp;
 
+import lombok.SneakyThrows;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
-import ru.itpark.callcenter.forms.RegistrationClients;
-import ru.itpark.callcenter.models.Client;
-import ru.itpark.callcenter.repositories.ClientRepository;
 
-
+import javax.mail.internet.MimeMessage;
 import java.time.LocalDateTime;
+import java.util.UUID;
 
 @Service
 public class RegistrationClientsImpl implements RegistrationClient {
     @Autowired
     private ClientRepository clientRepository;
+    @Autowired
+    private JavaMailSender javaMailSender;
+
+  //  private PasswordEncoder encoder = new BCryptPasswordEncoder();
+
+
 
     @Override
-    public Long registration(RegistrationClients form) {
+    @SneakyThrows
+    public String registrationClients(RegistrationClients form) {
         LocalDateTime registrationTime = LocalDateTime.now();
+        String confirmString = UUID.randomUUID().toString().replace("-","");
         Client newClient= Client.builder()
                 .name(form.getName())
                 .surname(form.getSurname())
-                //.confirmCode(confirmString)
                 .email(form.getEmail())
-                .registrationTime(form.getRegistrationTime())
+//                .registrationTime(form.getRegistrationTime())
+//                .categoriya_zayavki(form.getCategoriya_zayavki())
+                .expiredDate(LocalDateTime.now().plusHours(3))
+                //.id(form.getId())
+               .confirmCode(confirmString)
+
                 .build();
-        clientRepository.save(newClient);
 
+clientRepository.save(newClient);
+        String text = "<a href=>Пройдите по ссылке!</a>";
 
-//        String text = "<a href=\"localhost/confirm/" +newClient.getConfirmCode()+ "\">Пройдите по ссылке</a>";
-//
-//        MimeMessage message = javaMailSender.createMimeMessage();
-//        message.setContent(text, "text/html");
-//        MimeMessageHelper messageHelper = new MimeMessageHelper(message, true);
-//        messageHelper.setTo(newClient.getEmail());
-//        messageHelper.setSubject("Подтверждение регистрации");
-//        messageHelper.setText(text, true);
-//
-//        javaMailSender.send(message);
-        return newClient.getId();
+        MimeMessage message = javaMailSender.createMimeMessage();
+        message.setContent(text, "text/html");
+        MimeMessageHelper messageHelper = new MimeMessageHelper(message, true);
+        messageHelper.setTo(newClient.getEmail());
+        messageHelper.setSubject("Подтверждение регистрации");
+        messageHelper.setText(text, true);
+
+        javaMailSender.send(message);
+        return newClient.getEmail();
     }
+
+
+
 //    @Override
 //    public boolean confirm(String confirmString) {
 //        Optional<Client> clientOptional
 //                = clientRepository.findByConfirmCode(confirmString);
-//        if (clientRepository.isPresent()) {
+//        if (clientOptional.isPresent()) {
 //            Client client = clientOptional.get();
 //
 //            if (LocalDateTime.now().isAfter(client.getExpiredDate())) {
@@ -52,12 +67,12 @@ public class RegistrationClientsImpl implements RegistrationClient {
 //
 //            client.setConfirmCode(null);
 //            client.setExpiredDate(null);
-//            client.setState(State.CONFIRMED);
+//          //  client.setState(State.CONFIRMED);
 //            clientRepository.save(client);
 //
 //            return true;
 //        }
 //        return false;
-    //}
+//    }
 
 }

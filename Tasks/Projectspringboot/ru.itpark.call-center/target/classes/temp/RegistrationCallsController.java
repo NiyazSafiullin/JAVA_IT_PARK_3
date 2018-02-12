@@ -6,7 +6,6 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-import ru.itpark.callcenter.forms.RegistrationCallsForm;
 import ru.itpark.callcenter.services.CallsService;
 import ru.itpark.callcenter.services.RegistrationCalls;
 

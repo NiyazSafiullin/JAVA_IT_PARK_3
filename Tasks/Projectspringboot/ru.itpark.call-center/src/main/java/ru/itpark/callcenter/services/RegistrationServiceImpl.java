@@ -10,9 +10,7 @@ import ru.itpark.callcenter.forms.RegistrationForm;
 import ru.itpark.callcenter.models.Role;
 import ru.itpark.callcenter.models.State;
 import ru.itpark.callcenter.models.User;
-import ru.itpark.callcenter.repositories.ClientRepository;
 import ru.itpark.callcenter.repositories.UsersRepository;
-import ru.itpark.callcenter.services.RegistrationService;
 
 import javax.mail.internet.MimeMessage;
 import java.time.LocalDateTime;
@@ -43,6 +41,8 @@ public class RegistrationServiceImpl implements RegistrationService {
                 .confirmCode(confirmString)
                 .expiredDate(LocalDateTime.now().plusHours(3))
                 .email(form.getEmail())
+
+
                 .surname(form.getSurname())
                 .hashPassword(hashPassword)
                 .registrationTime(registrationTime)
