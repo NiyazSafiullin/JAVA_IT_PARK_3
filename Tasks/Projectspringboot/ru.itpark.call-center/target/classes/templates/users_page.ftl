@@ -12,13 +12,13 @@
     <section id="content">
 <table>
     <tr>
-        <th>ID</th>
+        <#--<th>ID</th>-->
         <th>Имя</th>
         <th>электронный адрес</th>
     </tr>
     <#list model.users as user>
     <tr>
-        <td>${user.id}</td>
+        <#--<td>${user.id}</td>-->
         <td>${user.name}</td>
         <td>${user.email}</td>
 

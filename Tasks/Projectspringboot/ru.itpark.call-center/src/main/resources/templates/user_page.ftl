@@ -3,6 +3,8 @@
 <@spring.bind "model"/>
 <html>
 <head>
+    <script type="text/javascript" src="/js/form_script.js"></script>
+    <link rel="stylesheet" href="/css/style_page.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Просмотр пользователя</title>
 </head>

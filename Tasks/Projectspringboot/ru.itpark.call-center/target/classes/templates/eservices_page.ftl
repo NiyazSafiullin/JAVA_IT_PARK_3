@@ -13,13 +13,13 @@
 
         <table>
             <tr>
-                <th>ID</th>
+                <#--<th>ID</th>-->
                 <th>Название услуги</th>
                 <th>Телефон для связи</th>
             </tr>
     <#list model.eservice as eservice>
     <tr>
-        <td>${eservice.id}</td>
+        <#--<td>${eservice.id}</td>-->
             <td>${eservice.name}</td>
     <td>${eservice.number}</td>
     </tr>

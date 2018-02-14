@@ -28,7 +28,7 @@
     <section id="content">
     <p style="text-align: center"><a href="/">Вернуться в главное меню</a></p>
 <p align="center"><a href="/services?order_by">Список Обработанных заявок</p>
-     <p align="center"><a href="/eservices?order_by">Список моих заявок</p>
+     <p align="center"><a href="/eservices?order_by">Список заявок</p>
      <p align="center"><a href="/addEService">Оставить электронную заявку </p>
 </#if>
 </section>

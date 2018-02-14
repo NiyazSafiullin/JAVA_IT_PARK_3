@@ -76,7 +76,25 @@
     </nav>
     <!-- end nav -->
 </div>
+<#--<div>-->
+        <#--<table>-->
+            <#--<tr>-->
+            <#--&lt;#&ndash;<th>ID</th>&ndash;&gt;-->
+                <#--<th>Имя</th>-->
+                <#--<th>Фамилия</th>-->
+            <#--</tr>-->
+    <#--<#list model.employees as employee>-->
+    <#--<tr>-->
+    <#--&lt;#&ndash;<td>${employee.id}</td>&ndash;&gt;-->
+        <#--<td>${employee.name}</td>-->
+        <#--<td>${employee.surname}</td>-->
 
+    <#--</tr>-->
+    <#--</#list>-->
+        <#--</table>-->
+        <#--<p style="text-align: center"><a href="/">Вернуться в главное меню</a></p>-->
+
+<#--</div>-->
 <!-- top bar -->
 <div class="top-bar">
     <h1>services</h1>
