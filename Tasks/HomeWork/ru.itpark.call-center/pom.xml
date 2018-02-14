@@ -8,6 +8,8 @@
     <artifactId>springboot-example</artifactId>
     <version>0.1</version>
 
+
+
     <properties>
         <lombok.version>1.16.18</lombok.version>
         <postgres.version>42.1.4</postgres.version>
@@ -53,6 +55,7 @@
             <artifactId>mail</artifactId>
             <version>1.4.7</version>
         </dependency>
+
     </dependencies>
 
     <!--Указываем конфигурацию сборки приложения-->

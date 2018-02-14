@@ -45,6 +45,16 @@ public class EmployeeServiceImpl implements EmployeeService {
         return newEmployee.getName();
         }
 
+    @Override
+    public List<Employee> getEmployees(String orderBy) {
+        switch (orderBy) {
+            // case "category": return servicesRepository.findByOrderByRegistrationTimeDesc();
+            case "id": return employeeRepository.findByOrderById();
+            case "name": return employeeRepository.findByOrderByName();
+            case "surname" : return employeeRepository.findByOrderBySurname();
+        }
+        return employeeRepository.findAll();
+    }
 
 
 

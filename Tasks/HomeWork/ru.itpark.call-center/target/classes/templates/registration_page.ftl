@@ -7,7 +7,7 @@
 </head>
 <body>
 <#include 'common/header.ftl'/>
-<form class="form-style-4" title="Регистрация"
+<form class="form-style-4" title="Регистрация в системе получения услуг"
       name="registrationForm"
       method="post"
       action="/registration">
@@ -18,10 +18,12 @@
     <input type="text" name="email" placeholder="Почта"/>
     <br>
     <input type="password" name="password" placeholder="Пароль"/>
-    <br>
+    <br><br>
+    <textarea name="description" onkeyup="adjust_textarea(this)"></textarea> <br><br>
+    <p><input type="submit" value="Зарегистрироваться"/> </p>
+    <p><a href="login.ftl">Вход, для зарегистрированных пользователей</p>
 
-    <textarea name="description" onkeyup="adjust_textarea(this)"></textarea>
-    <input type="submit"/>
 </form>
+
 </body>
 </html>

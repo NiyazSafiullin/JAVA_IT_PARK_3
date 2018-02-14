@@ -7,6 +7,7 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.userdetails.UserDetailsService;
+//import org.springframework.security.core.userdetails.ClientDetail
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 // WebSecurityConfigurerAdapter - класс
@@ -21,10 +22,12 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .authorizeRequests() // блок, отвечающий за урлы и их доступы
                 .antMatchers("/registration/**").permitAll() // разрешили всем
                 .antMatchers("/confirm/**").permitAll()
+                .antMatchers("/confirm2/**").permitAll()
                 .antMatchers("/css/**").permitAll()
                 .antMatchers("/js/**").permitAll()
                 .antMatchers("/profile/**").hasAnyAuthority("USER", "ADMIN") // разрешили админу и пользователям
-                .antMatchers("/users/**").hasAnyAuthority("ADMIN") // только админу
+                .antMatchers("/users/**").hasAnyAuthority("USER", "ADMIN") // только админу и пользователю
+                .antMatchers("/clients/1").hasAnyAuthority("ADMIN")
                 .anyRequest().authenticated() // все остальные запросы требуют предварительной авторизации
                 .and()
                 .formLogin() // блок с формой входа
@@ -40,6 +43,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
     private UserDetailsService userDetailsService;
+
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {

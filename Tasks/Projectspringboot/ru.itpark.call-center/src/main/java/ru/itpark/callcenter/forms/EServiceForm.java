@@ -13,9 +13,8 @@ import java.util.Date;
 @ToString
 
 public class EServiceForm {
-//private int id;
-
-   private String usluga;
+    private String email;
+   //private String usluga;
     private String name;
     private Long number;
    private LocalDateTime registrationTime;

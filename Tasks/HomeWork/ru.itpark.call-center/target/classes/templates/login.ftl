@@ -3,7 +3,7 @@
 <@spring.bind "model"/>
 <html>
 <head>
-    <title>News- Вход</title>
+    <title>Вход в систему</title>
     <script type="text/javascript" src="/js/form_script.js"></script>
     <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -18,8 +18,8 @@
     <br>
     <input type="text" name="email" placeholder="Почта"/>
     <br>
-    <input type="password" name="password" placeholder="Пароль"/>
-    <input type="submit">
+    <input type="password" name="password" placeholder="Пароль"/><br><br>
+    <input type="submit" value="Войти">
 </form>
 </body>
 </html>

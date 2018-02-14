@@ -26,8 +26,8 @@ public class ClientsController {
     @GetMapping("/clients/{client-id}")
     public String getClientPage(@ModelAttribute("model") ModelMap model,
                               @PathVariable("client-id") Long clientId) {
-        Client client = service.getClient(clientId);
-        model.addAttribute("client ", client);
+        Client clients=service.getClient(clientId);
+        model.addAttribute("clients",clients);
         return "client_page";
     }
     @PostMapping("/clients/{client-id}")
@@ -36,6 +36,7 @@ public class ClientsController {
     public ResponseEntity<Object> updateClient(@PathVariable("client-id") Long clientId,
                                              NamesForm form) {
         service.update(clientId, form);
+
         return ResponseEntity.accepted().build();
     }
 

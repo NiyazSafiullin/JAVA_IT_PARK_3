@@ -16,12 +16,10 @@
     <section id="content">
 
 
- <p align="center"><a href="/addServices">Добавить услугу(Режим администратора)</p>
-        <p align="center"><a href="/usersearch">Поиск</p>
+ <p align="center"><a href="/addServices">Обработать заявку</p>
     <p align="center"><a href="/addEmployees">Добавить сотрудника(Режим администратора)</p>
-    <p align="center"><a href="/services?order_by">Посмотреть все услуги(Режим администратора)</p>
-        <p align="center"><a href="/eservices?order_by">Посмотреть новые заявки(Режим администратора)</p>
-        <p align="center"><a href="/users?order_by">Посмотреть всеx зарегистрированных пользователей системы(Режим администратора)</p>
+    <p align="center"><a href="/eservices?order_by">Посмотреть новые заявки(Режим администратора)</p>
+    <p align="center"><a href="/users?order_by">Посмотреть всеx зарегистрированных пользователей системы(Режим администратора)</p>
     <p style="text-align: center"><a href="/">Вернуться в главное меню</a></p>
     </section>
 </div>
@@ -29,7 +27,7 @@
 <div class="container">
     <section id="content">
     <p style="text-align: center"><a href="/">Вернуться в главное меню</a></p>
-
+<p align="center"><a href="/services?order_by">Список Обработанных заявок</p>
      <p align="center"><a href="/eservices?order_by">Список моих заявок</p>
      <p align="center"><a href="/addEService">Оставить электронную заявку </p>
 </#if>

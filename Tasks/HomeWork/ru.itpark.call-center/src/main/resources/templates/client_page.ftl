@@ -4,9 +4,11 @@
 <html>
 <head>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <title>Просмотр пользователя</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Просмотр пользователей системы</title>
 </head>
 <body>
+<form class="form-style-4">
 <#--<#include 'common/header.ftl'/>-->
 <script>
 
@@ -15,8 +17,9 @@
         // Оотправляем ajax-запорс на сервер
         $.ajax({
             type: "POST",
-            url: "/clients/${model.client.id}",
+            url: "/clients/${model.clients.id}",
             data: {
+
                 "name": name,
                 "surname": surname
             },
@@ -29,15 +32,17 @@
         });
     }
 </script>
+
 <div>
 
-    <input type="text" id="name" name="name" value="${model.client.name}"/>
-    <input type="text" id="surname" name="surname" value="${model.client.surname}"/>
-<#--<input type="text" id="email" name="email" value="${model.client.email}"/>-->
-    <button onclick="sendNewNameOrSurName(
+    <input type="text" id="name" name="name" value="${model.clients.name}"/>
+    <input type="text" id="surname" name="surname" value="${model.clients.surname}"/>
+<#--<input type="text" id="email" name="email" value="${model.client.email}"/>--><br><br>
+   <p> <button onclick="sendNewNameOrSurName(
         document.getElementById('name').value,
-        document.getElementById('surname').value)">Отправить</button>
+        document.getElementById('surname').value)">Отправить</button></p>
 
 </div>
-
+</form>
 </body>
+</html>

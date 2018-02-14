@@ -10,10 +10,13 @@ import org.springframework.web.bind.annotation.*;
 import ru.itpark.callcenter.forms.EmployeesForm;
 import ru.itpark.callcenter.models.Services;
 import ru.itpark.callcenter.models.Employee;
+import ru.itpark.callcenter.models.User;
 import ru.itpark.callcenter.services.AuthenticationService;
 import ru.itpark.callcenter.services.RegistrationServices;
 import ru.itpark.callcenter.services.EmployeeService;
 import org.springframework.http.ResponseEntity;
+
+import java.util.List;
 
 @Controller
 public class EmployeesController {
@@ -29,6 +32,13 @@ public class EmployeesController {
         return "add_employees";
 
 
+    }
+    @GetMapping(value = "/Employees")
+    public String getUsers(@ModelAttribute("model")ModelMap model,
+                           @RequestParam("order_by") String orderBy) {
+        List<Employee> employees = employeeService.getEmployees(orderBy);
+        model.addAttribute("employees", employees);
+        return "Employees_page";
     }
 
     @GetMapping("/addEmployees")

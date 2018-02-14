@@ -4,7 +4,20 @@
     background: #333333;
     padding: 30px 30px 15px 30px;
     border: 5px solid #53687E;
-    margin-left:300px
+    margin-left:300px;
+    font-family: cursive;
+}
+.form-style-4 a {
+    font-size: 14px;
+    background: #333333;
+    font-family: cursive;
+    color: fff;
+}
+.form-style-4 h1 {
+    font-size: 14px;
+    background: #ffffff;
+    font-family: cursive;
+    color: 222;
 }
 
 .form-style-4 input[type=submit],

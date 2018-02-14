@@ -1,11 +1,24 @@
-package temp;
+package ru.itpark.callcenter.services;
 
+import lombok.SneakyThrows;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.MimeMessageHelper;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import ru.itpark.callcenter.forms.RegistrationClients;
+import ru.itpark.callcenter.models.Role;
+import ru.itpark.callcenter.models.State;
+import ru.itpark.callcenter.models.Client;
 
 import ru.itpark.callcenter.repositories.ClientRepository;
+import ru.itpark.callcenter.services.RegistrationClient;
+
+import javax.mail.internet.MimeMessage;
+import java.time.LocalDateTime;
+import java.util.Optional;
+import java.util.UUID;
 
 @Service
 public class RegistrationClientsImpl implements RegistrationClient {

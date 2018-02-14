@@ -1,4 +1,4 @@
-package temp;
+package ru.itpark.callcenter.services;
 import org.springframework.stereotype.Service;
 import ru.itpark.callcenter.forms.RegistrationClients;
 

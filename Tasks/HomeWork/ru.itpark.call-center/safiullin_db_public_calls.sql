@@ -1,1 +1,1 @@
-INSERT INTO public.calls (time, line, response_time, employee, talk_time, hold_time, id, registration_time, responce_time, name, superviser, surname) VALUES ('22:00:00', 1, '12:00:00', 1, '02:00:00', '03:00:00', 1, null, '01:00:00', 'w', 2, 'wqw');
+INSERT INTO public.calls (time, line, employee, talk_time, hold_time, id, registration_time, client, service, state) VALUES ('12', 1, 1, '1', '1', 1, null, 1, 1, null);

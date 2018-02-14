@@ -1,4 +1,5 @@
 package ru.itpark.callcenter.controllers;
+import ru.itpark.callcenter.forms.NamesForm;
 import ru.itpark.callcenter.models.Services;
 import ru.itpark.callcenter.services.AuthenticationService;
 import ru.itpark.callcenter.services.RegistrationServices;
@@ -27,15 +28,40 @@ public class EServiceController {
     @GetMapping(value = "/eservices")
     public String getEServices(@ModelAttribute("model")ModelMap model,
                            @RequestParam("order_by") String orderBy) {
-        List<Eservice> eservices = eServices.getEServices(orderBy);
-        model.addAttribute("eservices", eservices);
+        List<Eservice> eservice = eServices.getEServices(orderBy);
+        model.addAttribute("eservice", eservice);
         return "eservices_page";
     }
 
-        @PostMapping("/addEService")
+    @GetMapping("/eservices/{eservice-id}")
+    public String getEservicePage(@ModelAttribute("model") ModelMap model,
+                                  @PathVariable("eservice-id") Long eservicesId) {
+        Eservice eservice = eServices.getEService(eservicesId);
+        model.addAttribute("eservice", eservice);
+        return "eservice_page";
+    }
+
+
+
+
+
+
+    @PostMapping("/eservices/{eservice-id")
+    @ResponseBody
+    public ResponseEntity<Object> updateEservice(@PathVariable("eservice-id") Long eservicesId,
+                                             NamesForm form) {
+        eServices.update(eservicesId, form);
+        return ResponseEntity.accepted().build();
+    }
+
+
+
+
+
+    @PostMapping("/addEService")
     public String addEService(@ModelAttribute EServiceForm form,
                               @ModelAttribute("model") ModelMap model) {
-        Long email = eServices.EServiceForm(form);
+        String email = eServices.EServiceForm(form);
         model.addAttribute("email", email);
         return "add_eservice";
 

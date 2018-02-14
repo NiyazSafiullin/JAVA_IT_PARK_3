@@ -14,13 +14,13 @@
       name="registrationForm"
       method="post"
       action="/registration">
-    <input type="text" name="name" placeholder="Имя"/>
+    <input type="text" name="name" placeholder="Имя" required/>
     <br>
-    <input type="text" name="surname" placeholder="Фамилия"/>
+    <input type="text" name="surname" placeholder="Фамилия" required/>
     <br>
-    <input type="text" name="email" placeholder="Почта"/>
+    <input type="text" name="email" placeholder="Почта" required/>
     <br>
-    <input type="password" name="password" placeholder="Пароль"/>
+    <input type="password" name="password" placeholder="Пароль" required/>
     <br><br>
     <p><input type="submit" value="Зарегистрироваться"/> </p>
     <p><a href="login.ftl">Вход, для зарегистрированных пользователей</p>

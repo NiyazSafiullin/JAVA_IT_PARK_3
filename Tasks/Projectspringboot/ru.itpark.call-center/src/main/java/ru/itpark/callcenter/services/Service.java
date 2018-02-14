@@ -8,7 +8,7 @@ import java.util.List;
 public interface Service {
     List<Services> getServices(String orderBy);
 
-    //Service getServices(Long servicesId);
+    Service getServices(Long servicesId);
 
     void update(Long servicesId, NamesForm form);
 

@@ -19,15 +19,20 @@ public class Client {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String name;
     private String surname;
     private String email;
-    private String confirmCode;
+
     private LocalDateTime registrationTime;
+    private String categoriya_zayavki;
 
 
-//    @Enumerated(value = EnumType.STRING)
-//    private State state;
+    private LocalDateTime expiredDate;
+
+    @Enumerated(value = EnumType.STRING)
+    private State state;
+
+
+
 
 }

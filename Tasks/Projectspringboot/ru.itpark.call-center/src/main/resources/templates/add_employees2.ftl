@@ -14,11 +14,11 @@
       method="post"
       action="/addEmployees">
 
-    <input type="text" name="name" placeholder="Имя"/>
+    <input type="text" name="name" placeholder="Имя" required/ >
     <br>
-    <input type="text" name="surname" placeholder="Фамилия"/>
-    <br>
-    <input type="text" name="position" placeholder="Должность"/>
+    <input type="text" name="surname" placeholder="Фамилия" required/>
+    <#--<br>-->
+    <#--<input type="text" name="position" placeholder="Должность"/>-->
 
     <p><input type="submit" value="Добавить"/> </p>
 

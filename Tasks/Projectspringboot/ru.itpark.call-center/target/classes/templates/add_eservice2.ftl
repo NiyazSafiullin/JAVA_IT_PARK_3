@@ -13,13 +13,12 @@
               name="EServiceForm"
               method="post"
               action="/addEService">
-            <#--<input type="text" name="id" placeholder="id"/>-->
-            <#--<br>-->
-           <input type="text" name="usluga" placeholder="Категория услуги"/>
+
+            <#--<input type="text" name="usluga" placeholder="Категория услуги"/>-->
             <br>
-            <input type="text" name="name" placeholder="Наименование услуги"/>
+            <input type="text" name="name" placeholder="Наименование услуги" required/>
             <br>
-            <input type="text" name="number" placeholder="Ваш контактный номер"/>
+            <input type="text" name="number" placeholder="Ваш контактный номер" required/>
             <br>
         <#--<input type="text" name="position" placeholder="Должность"/>-->
 

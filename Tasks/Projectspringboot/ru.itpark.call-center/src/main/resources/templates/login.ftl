@@ -18,9 +18,9 @@
       method="post"
       action="/login">
     <br>
-    <input type="text" name="email" placeholder="Почта"/>
+    <input type="text" name="email" placeholder="Почта" required/>
     <br>
-    <input type="password" name="password" placeholder="Пароль"/><br><br>
+    <input type="password" name="password" placeholder="Пароль" required/><br><br>
     <input type="checkbox" name="remember-me">Запомнить<br><br>
     <input type="submit" value="Войти">
 

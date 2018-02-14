@@ -13,9 +13,11 @@
       name="registrationForm"
       method="post"
       action="/addServices">
-    <input type="text" name="name" placeholder="Вид Сервиса"/>
+    <input type="text" name="number" placeholder="Номер заявки" required/>
     <br>
-    <input type="text" name="category" placeholder="Категория"/>
+    <input type="text" name="name" placeholder="Вид Сервиса" required/>
+    <br>
+    <input type="text" name="category" placeholder="Категория" required/>
     <br>
     <#--<textarea name="description" onkeyup="adjust_textarea(this)"></textarea> <br><br>-->
     <p><input type="submit" value="Добавить"/> </p>

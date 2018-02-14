@@ -26,6 +26,7 @@ public class ClientServiceImpl implements ClientService {
     @Override
     public Client getClient(Long clientId) {
         return clientRepository.findOne(clientId);
+
     }
 
 

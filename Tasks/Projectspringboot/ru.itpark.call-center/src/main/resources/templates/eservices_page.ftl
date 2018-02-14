@@ -14,14 +14,14 @@
         <table>
             <tr>
                 <th>ID</th>
-                <th>Категория</th>
                 <th>Название услуги</th>
+                <th>Телефон для связи</th>
             </tr>
-    <#list model.eservices as eservice>
+    <#list model.eservice as eservice>
     <tr>
         <td>${eservice.id}</td>
-        <#--<td>${eservice.number}</td>-->
-        <td>${eservice.name}</td>
+            <td>${eservice.name}</td>
+    <td>${eservice.number}</td>
     </tr>
     </#list>
         </table>

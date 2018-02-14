@@ -15,6 +15,7 @@ public class RegistrationServicesForms {
     private String name;
     private String category;
     private String result;
+    private Long number;
     private LocalDateTime registrationTime;
     @Enumerated(value = EnumType.STRING)
     private Role role;

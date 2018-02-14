@@ -1,0 +1,1 @@
+INSERT INTO public.clients (id, name, surname, email, registrationtime, state, confirm_code, registration_time, role, expired_date, hash_password) VALUES (1, 'niyaz1', 'safiullinn222', 's.niyaz@mail.ru', null, null, '', null, null, null, null);

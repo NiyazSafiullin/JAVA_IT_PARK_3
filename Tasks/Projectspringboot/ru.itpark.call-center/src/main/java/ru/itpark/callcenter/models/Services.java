@@ -26,7 +26,13 @@ public class Services {
     private String type;
     private String name;
     private String result;
+    private Long number;
     private LocalDateTime expiredDate;
+
+
+
+
+
 
 
 

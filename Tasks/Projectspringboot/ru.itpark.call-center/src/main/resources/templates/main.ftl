@@ -7,6 +7,8 @@
     <title>Система регистрации на сайте электронных услуг</title>
     <script type="text/javascript" src="/js/form_script.js"></script>
     <link rel="stylesheet" href="/css/style_page.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
 
 
 
@@ -30,19 +32,20 @@
 <form class="form-style-4" title=""
       name="MainForm"
       method="get"
-      action="/profile">
+      action="/search">
     <div style="float: right; line-height: 20px"><p><a href="/profile">Личный кабинет</a>  <a href="/logout">Выход</a></p></div>
     <div style="float: right; line-height: 20px"><p><a href="/login">Вход</a><a href="/registration">Регистрация</a> </p></div>
 
 
     <input type="text" name="type" placeholder="Категория услуги"/>
     <br>
-    <input type="text" name="result" placeholder="результат"/>
-    <br>
+
+
+    <input type="submit" value="Найти"/>
 
 
 
-    <input type="submit" value="Запрос"/>
+
 </form>
     </section>
     </div>

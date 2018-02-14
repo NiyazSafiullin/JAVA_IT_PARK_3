@@ -21,6 +21,15 @@ public class MainPageController {
     private AuthenticationService authenticationService;
 
     @GetMapping("/")
+    public String getMain(Authentication authentication,
+                              @ModelAttribute("model") ModelMap model) {
+        if (authentication != null) {
+            User user = authenticationService.getUserByAuthentication(authentication);
+            model.addAttribute("user", user);
+        }
+        return "main_page";
+    }
+    @GetMapping("/authorization")
     public String getMainPage(Authentication authentication,
                               @ModelAttribute("model") ModelMap model) {
         if (authentication != null) {
@@ -29,6 +38,15 @@ public class MainPageController {
         }
         return "main";
     }
+    @GetMapping("/sotrudniki")
+    public String getMainPageEmployee(Authentication authentication,
+                              @ModelAttribute("model") ModelMap model) {
+        if (authentication != null) {
+            User user = authenticationService.getUserByAuthentication(authentication);
+            model.addAttribute("user", user);
+        }
+        return "main_employees";
+    }
     @RequestMapping(value="/logout", method = RequestMethod.GET)
     public String logoutPage (HttpServletRequest request, HttpServletResponse response) {
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
@@ -36,6 +54,15 @@ public class MainPageController {
             new SecurityContextLogoutHandler().logout(request, response, auth);
         }
         return "redirect:/login?logout";//You can redirect wherever you want, but generally it's a good practice to show login screen again.
+    }
+    @GetMapping("/search")
+    public String getSearchPage(Authentication authentication,
+                              @ModelAttribute("model") ModelMap model) {
+        if (authentication != null) {
+            User user = authenticationService.getUserByAuthentication(authentication);
+            model.addAttribute("user", user);
+        }
+        return "main";
     }
 
 }

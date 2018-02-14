@@ -11,9 +11,10 @@ import java.util.Optional;
 public interface EserviceRepository extends JpaRepository <Eservice, Long> {
     List<Eservice> findByOrderById();
   List<Eservice> findByOrderByName();
-    //Optional<Eservice> findByEmail(String email);
-   // List<Eservice> findByOrderByNumber();
-    List<Eservice> findByOrderByRegistrationTimeDesc();
+
+  //  Optional<Eservice> findByEmail(String email);
+//    List<Eservice> findByOrderByNumber();
+//    List<Eservice> findByOrderByRegistrationTimeDesc();
     //List<Eservice> findByOrOrderByUsluga();
 
 }

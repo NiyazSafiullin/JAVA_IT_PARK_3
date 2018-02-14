@@ -8,7 +8,27 @@
     <title>Все электронные услуги</title>
 </head>
 <body>
+<#--<script>-->
 
+    <#--&lt;#&ndash;Функция принимает на вход два параметра - имя и фамилию &ndash;&gt;-->
+    <#--function sendNewNameOrSurName(category, name) {-->
+        <#--// Оотправляем ajax-запорс на сервер-->
+        <#--$.ajax({-->
+            <#--type: "POST",-->
+            <#--url: "/services/${model.orderby}",-->
+            <#--data: {-->
+                <#--"name": category,-->
+                <#--"surname": name-->
+            <#--},-->
+            <#--error: function (data) {-->
+                <#--alert(data.status)-->
+            <#--},-->
+            <#--success: function (data) {-->
+                <#--alert("Wow!" + data.status)-->
+            <#--}-->
+        <#--});-->
+    <#--}-->
+<#--</script>-->
 <div class="container">
     <section id="content">
 

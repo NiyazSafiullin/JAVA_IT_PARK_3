@@ -19,8 +19,6 @@ import java.util.List;
 
 @Controller
 public class ServicesController {
-//    @Autowired
-//    private Service service;
     @Autowired
     private AuthenticationService authenticationService;
     @Autowired
@@ -32,15 +30,6 @@ public class ServicesController {
         model.addAttribute("services", services);
         return "service_page";
     }
-
-//    @GetMapping("/services/{services-id}")
-//    public String getUserPage(@ModelAttribute("model") ModelMap model,
-//                              @PathVariable("services-id") Long servicesid) {
-//        Services services = service.getServices(servicesid);
-//        model.addAttribute("services", services);
-//        return "service_page";
-//    }
-
 
 
 

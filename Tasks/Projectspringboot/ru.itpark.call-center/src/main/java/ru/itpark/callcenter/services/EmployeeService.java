@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface EmployeeService {
     String EmployeesForm(EmployeesForm form);
-//   List<Employee> getEmployees(Long employeesid);
 
+List<Employee> getEmployees(String orderBy);
 
 }

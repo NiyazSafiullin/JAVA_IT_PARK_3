@@ -18,6 +18,7 @@ public class NamesForm {
 public void update(Client client) {
         client.setName(this.name);
         client.setSurname(this.surname);
+
 }
 //    public void update(Calls calls) {
 //        calls.setName(this.name);
