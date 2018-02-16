@@ -5,6 +5,8 @@
 <head>
     <script type="text/javascript" src="/js/form_script.js"></script>
     <link rel="stylesheet" href="/css/style_page.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
     <title>Все электронные услуги</title>
 </head>
 <body>
@@ -14,7 +16,7 @@
 <table>
     <tr>
         <th>ID</th>
-        <th>Категория</th>
+        <th>Статус</th>
         <th>Название услуги</th>
     </tr>
     <#list model.services as service>

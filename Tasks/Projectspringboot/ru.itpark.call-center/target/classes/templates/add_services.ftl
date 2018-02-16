@@ -5,12 +5,12 @@
 <head>
 <script type="text/javascript" src="/js/form_script.js"></script>
     <link rel="stylesheet" href="/css/style_page.css">
-    <title>Новая заявка</title>
+    <title></title>
 </head>
 <body>
 <#include 'common/header.ftl'/>
 
-<h1>Новая услуга добавлена </h1>
+<h1>Запрос обработан </h1>
 <p style="text-align: center"><a href="/profile">Вернуться в категорию</a></p>
 
 </body>

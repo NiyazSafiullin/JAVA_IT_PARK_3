@@ -10,4 +10,5 @@ public interface EmployeeRepository extends JpaRepository <Employee, Long> {
     List<Employee> findByOrderById();
     List<Employee> findByOrderByName();
     List<Employee> findByOrderBySurname();
+    List<Employee> findByOrderByPosition();
 }

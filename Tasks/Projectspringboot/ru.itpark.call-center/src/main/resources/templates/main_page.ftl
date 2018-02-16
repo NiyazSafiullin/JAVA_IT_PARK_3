@@ -49,8 +49,10 @@
         </div>
         <!-- box-nav -->
         <a class="box-primary-nav-trigger" href="#0">
-            <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
+            <span class="box-menu-text">Меню</span><span class="box-menu-icon"></span>
+
         </a>
+
         <!-- box-primary-nav-trigger -->
     </header>
     <!-- end box header -->
@@ -60,11 +62,12 @@
         <ul class="box-primary-nav">
             <#--<li class="box-label">About me</li>-->
 
-            <li><a href="index.html">Intro</a> <i class="ion-ios-circle-filled color"></i></li>
-            <li><a href="/authorization">Личный кабинет</a></li>
-            <li><a href="/sotrudniki">Сотрудники организации</a></li>
+            <li><a href="/">Главная</a> <i class="ion-ios-circle-filled color"></i></li>
+            <li><a href="/profile">Личный кабинет</a></li>
+            <li><a href="/Employees?order_by">Сотрудники организации</a></li>
 
             <li><a href="contact.html">Контакты</a></li>
+                <li><a href="/logout">Выход</a></li>
 
 
 

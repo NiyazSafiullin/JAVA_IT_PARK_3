@@ -15,6 +15,7 @@ public class RegistrationForm {
  private String email;
  private String password;
  private Long number;
+ private String result;
  @Enumerated(value = EnumType.STRING)
  private Role role;
 }

@@ -48,8 +48,8 @@
     </role>
     <schema id="10" parent="2" name="public">
       <ObjectId>2200</ObjectId>
-      <IntrospectionTimestamp>2018-02-14.11:39:40.905</IntrospectionTimestamp>
-      <IntrospectionStateNumber>2933</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2018-02-16.10:20:40.427</IntrospectionTimestamp>
+      <IntrospectionStateNumber>3057</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -129,7 +129,7 @@
     </table>
     <table id="24" parent="10" name="employees">
       <ObjectId>49690</ObjectId>
-      <StateNumber>2511</StateNumber>
+      <StateNumber>3057</StateNumber>
     </table>
     <table id="25" parent="10" name="eservice">
       <ObjectId>50040</ObjectId>
@@ -245,9 +245,9 @@
     </column>
     <column id="45" parent="24" name="position">
       <Position>3</Position>
-      <DataType>integer|0</DataType>
-      <StateNumber>1946</StateNumber>
-      <TypeId>23</TypeId>
+      <DataType>varchar(20)|0</DataType>
+      <StateNumber>3057</StateNumber>
+      <TypeId>1043</TypeId>
     </column>
     <column id="46" parent="24" name="surname">
       <Position>4</Position>

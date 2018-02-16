@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<#ftl encoding='UTF-8'>
+<#import 'spring.ftl' as spring>
+<@spring.bind "model"/>
+<#--<!DOCTYPE html>-->
 <html lang="en">
 
 <head>
@@ -6,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Box personal portfolio Template</title>
+    <title></title>
     <link rel="icon" href="img/fav.png" type="image/x-icon">
 
     <!-- Bootstrap -->
@@ -76,13 +79,13 @@
     </nav>
     <!-- end nav -->
 </div>
-<#--<div>-->
-        <#--<table>-->
-            <#--<tr>-->
-            <#--&lt;#&ndash;<th>ID</th>&ndash;&gt;-->
-                <#--<th>Имя</th>-->
-                <#--<th>Фамилия</th>-->
-            <#--</tr>-->
+<div>
+        <table>
+            <tr>
+            <#--<th>ID</th>-->
+                <th>Имя</th>
+                <th>Фамилия</th>
+            </tr>
     <#--<#list model.employees as employee>-->
     <#--<tr>-->
     <#--&lt;#&ndash;<td>${employee.id}</td>&ndash;&gt;-->
@@ -91,10 +94,10 @@
 
     <#--</tr>-->
     <#--</#list>-->
-        <#--</table>-->
-        <#--<p style="text-align: center"><a href="/">Вернуться в главное меню</a></p>-->
+        </table>
+        <p style="text-align: center"><a href="/">Вернуться в главное меню</a></p>
 
-<#--</div>-->
+</div>
 <!-- top bar -->
 <div class="top-bar">
     <h1>services</h1>

@@ -49,6 +49,10 @@ public class EServiceImpl implements EServices {
         return eserviceRepository.findAll();
     }
 
+//    @Override
+//    public Eservice findByName(String name) {
+//        return eserviceRepository.findAll(name);
+//    }
 
 
     @Override

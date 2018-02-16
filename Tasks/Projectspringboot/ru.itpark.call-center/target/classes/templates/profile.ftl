@@ -6,32 +6,40 @@
 
     <script type="text/javascript" src="/js/form_script.js"></script>
     <link rel="stylesheet" href="/css/style_page.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
     <title>Система регистрации на сайте электронных услуг</title>
 </head>
 <body>
 <h1 align="center">Привет, ${model.user.name}</h1>
-<h5 align="center"> Добро пожаловать в систему регистрация заявок</h5>
+<h3 align="center"> Добро пожаловать в систему регистрации заявок</h3>
 <#if model.user.role == "ADMIN">
 <div class="container">
-    <section id="content">
+    <#--<section id="content">-->
 
 
- <p align="center"><a href="/addServices">Обработать заявку</p>
-    <p align="center"><a href="/addEmployees">Добавить сотрудника(Режим администратора)</p>
-    <p align="center"><a href="/eservices?order_by">Посмотреть новые заявки(Режим администратора)</p>
-    <p align="center"><a href="/users?order_by">Посмотреть всеx зарегистрированных пользователей системы(Режим администратора)</p>
-    <p style="text-align: center"><a href="/">Вернуться в главное меню</a></p>
-    </section>
+        <button type="button" class="btn btn-primary btn-lg"><a href="/addServices">Обработать заявку</a></button>
+        <button type="button" class="btn btn-primary btn-lg"><a href="/addServices">Назначить сотрудника на заявку</a></button>
+        <button type="button" class="btn btn-primary btn-lg"><a href="/addEmployees">Добавить сотрудника</a></button>
+        <button type="button" class="btn btn-primary btn-lg"><a href="/deleteEmployees">Удалить сотрудника</a></button>
+        <button type="button" class="btn btn-primary btn-lg"><a href="/Employees?order_by">Посмотреть всех сотрудников</a></button>
+        <button type="button" class="btn btn-primary btn-lg"><a href="/eservices?order_by">Посмотреть новые заявки</a></button>
+            <button type="button" class="btn btn-primary btn-lg"><a href="/users?order_by">Посмотреть всеx пользователей системы</a></button>
+        <button type="button" class="btn btn-primary btn-lg"><a href="/authorization">Администрирование</a></button>
+        <button type="button" class="btn btn-primary btn-lg"><a href="/">Вернуться в главное меню</a></button>
+    <#--</section>-->
 </div>
 <#else>
 <div class="container">
-    <section id="content">
-    <p style="text-align: center"><a href="/">Вернуться в главное меню</a></p>
-<p align="center"><a href="/services?order_by">Список Обработанных заявок</p>
-     <p align="center"><a href="/eservices?order_by">Список заявок</p>
-     <p align="center"><a href="/addEService">Оставить электронную заявку </p>
+    <#--<section id="content">-->
+    <button type="button" class="btn btn-primary btn-lg"><a href="/addEService">Оставить электронную заявку </a></button>
+    <button type="button" class="btn btn-primary btn-lg"><a href="/eservices?order_by">Список заявок</a></button>
+    <button type="button" class="btn btn-primary btn-lg"><a href="/services?order_by">Список Обработанных заявок</a></button>
+<button type="button" class="btn btn-primary btn-lg"><a href="/authorization">Учетная запись</a></button>
+       <button type="button" class="btn btn-primary btn-lg"><a href="/">Вернуться в главное меню</a></button>
+
 </#if>
-</section>
+<#--</section>-->
 </div>
 </body>
 </html>

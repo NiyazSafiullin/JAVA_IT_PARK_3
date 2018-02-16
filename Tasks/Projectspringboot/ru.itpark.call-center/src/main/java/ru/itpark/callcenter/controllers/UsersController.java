@@ -50,6 +50,11 @@ public class UsersController {
         model.addAttribute("users", users);
         return "users_page";
     }
+
+
+
+
+
     @GetMapping("/users/{user-id}")
     public String getUserPage(@ModelAttribute("model") ModelMap model,
                               @PathVariable("user-id") Long userId) {
@@ -66,5 +71,9 @@ public class UsersController {
         return ResponseEntity.accepted().build();
     }
 
-
+    @GetMapping("/all/users/{user-id}")
+    @ResponseBody
+    public ResponseEntity<User> getUser(@PathVariable("user-id") Long userId) {
+        return ResponseEntity.ok(service.getUser(userId));
+    }
 }

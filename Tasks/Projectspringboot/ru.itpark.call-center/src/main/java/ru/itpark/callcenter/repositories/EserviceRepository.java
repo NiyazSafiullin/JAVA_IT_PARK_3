@@ -12,7 +12,9 @@ public interface EserviceRepository extends JpaRepository <Eservice, Long> {
     List<Eservice> findByOrderById();
   List<Eservice> findByOrderByName();
 
-  //  Optional<Eservice> findByEmail(String email);
+
+    //Eservice findAll(String name);
+    //  Optional<Eservice> findByEmail(String email);
 //    List<Eservice> findByOrderByNumber();
 //    List<Eservice> findByOrderByRegistrationTimeDesc();
     //List<Eservice> findByOrOrderByUsluga();

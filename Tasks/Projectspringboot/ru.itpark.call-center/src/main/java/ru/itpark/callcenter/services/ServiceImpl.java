@@ -17,6 +17,7 @@ public class ServiceImpl implements Service {
             case "id": return servicesRepository.findByOrderById();
             case "name": return servicesRepository.findByOrderByName();
             case "number" : return servicesRepository.findByOrderByNumber();
+            case "result" : return servicesRepository.findByOrderByResult();
         }
         return servicesRepository.findAll();
     }

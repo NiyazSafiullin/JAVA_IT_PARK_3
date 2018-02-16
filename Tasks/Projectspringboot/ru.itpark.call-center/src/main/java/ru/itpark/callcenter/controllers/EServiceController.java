@@ -55,7 +55,11 @@ public class EServiceController {
     }
 
 
-
+    @GetMapping("/all/eservice/{eservice-id}")
+    @ResponseBody
+    public ResponseEntity<Eservice> getEservice(@PathVariable("eservice-id") Long eserviceId) {
+        return ResponseEntity.ok(eServices.getEService(eserviceId));
+    }
 
 
     @PostMapping("/addEService")
@@ -82,5 +86,5 @@ public class EServiceController {
 //            model.addAttribute("eservice", eservice);
 //
 //        }
-//        return "search_user";
+//        return "search";
     }

@@ -4,6 +4,8 @@
     <title>Регистрация</title>
     <script type="text/javascript" src="/js/form_script.js"></script>
     <link rel="stylesheet" href="/css/style_page.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
@@ -23,10 +25,11 @@
     <input type="password" name="password" placeholder="Пароль" required/>
     <br><br>
     <p><input type="submit" value="Зарегистрироваться"/> </p>
-    <p><a href="login.ftl">Вход, для зарегистрированных пользователей</p>
-    <p style="text-align: center"><a href="/">Вернуться в главное меню</a></p>
+    <p><a style="color:#000000" href="login.ftl">Вход, для зарегистрированных пользователей</p>
+
 
 </form>
+    <p style="text-align: center"><a style="color:#000000" href="/">Вернуться в главное меню</a></p>
 </section>
     </div>
 </body>

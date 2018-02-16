@@ -10,6 +10,6 @@ public interface EServices {
     String EServiceForm(EServiceForm form);
    Eservice getEService(Long eserviceId);
  List<Eservice> getEServices(String orderBy);
-
+    //Eservice findByName(String name);
     void update(Long eserviceId, NamesForm form);
 }

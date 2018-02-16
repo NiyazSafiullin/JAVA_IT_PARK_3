@@ -39,6 +39,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 
                    .name(form.getName())
                     .surname(form.getSurname())
+                    .position(form.getPosition())
                     .build();
 
             employeeRepository.save(newEmployee);
@@ -52,6 +53,7 @@ public class EmployeeServiceImpl implements EmployeeService {
             case "id": return employeeRepository.findByOrderById();
             case "name": return employeeRepository.findByOrderByName();
             case "surname" : return employeeRepository.findByOrderBySurname();
+            case "position" : return employeeRepository.findByOrderByPosition();
         }
         return employeeRepository.findAll();
     }

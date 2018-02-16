@@ -13,6 +13,7 @@ public interface ServicesRepository extends JpaRepository<Services, Long> {
     List<Services> findByOrderById();
      List<Services> findByOrderByName();
      List<Services> findByOrderByNumber();
+     List<Services> findByOrderByResult();
      //List<Services> findByOrOrderByCategory();
     //Optional<Services> findByEmail(String email);
 }

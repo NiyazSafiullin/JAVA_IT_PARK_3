@@ -11,6 +11,6 @@ public class EmployeesForm {
 
     private String name;
     private String surname;
-    private int position;
+    private String position;
 }
 
