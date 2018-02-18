@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/style_page.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link rel="icon" href="img/fav.ico" type="image/x-icon">
 
 
 
@@ -37,7 +38,7 @@
     <div style="float: right; line-height: 20px"><p><a href="/login">Вход</a><a href="/registration">Регистрация</a> </p></div>
 
 
-    <input type="text" name="type" placeholder="Категория услуги"/>
+    <input type="text" name="type" placeholder="название услуги"/>
     <br>
 
 

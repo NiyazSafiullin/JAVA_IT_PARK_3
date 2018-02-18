@@ -8,6 +8,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
     <title>Пользлователи системы</title>
+    <link rel="icon" href="img/fav.ico" type="image/x-icon">
 </head>
 <body>
 <#--<script>-->

@@ -58,6 +58,10 @@ public class EmployeeServiceImpl implements EmployeeService {
         return employeeRepository.findAll();
     }
 
+    @Override
+    public void deleteEmployees(Long employeeId) {
+
+    }
 
 
 }

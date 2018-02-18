@@ -8,6 +8,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
     <title>Пользлователи системы</title>
+    <link rel="icon" href="img/fav.ico" type="image/x-icon">
 </head>
 <body>
 <#--<script>-->
@@ -47,14 +48,14 @@
     <#--<section id="content">-->
         <table class="table table-striped">
             <tr>
-                <#--<th>ID</th>-->
+                <th>Номер</th>
                 <th>Имя</th>
                 <th>Фамилия</th>
                     <th>Должность</th>
             </tr>
     <#list model.employees as employee>
     <tr>
-        <#--<td>${employee.id}</td>-->
+        <td>${employee.id}</td>
         <td>${employee.name}</td>
         <td>${employee.surname}</td>
             <td>${employee.position}</td>

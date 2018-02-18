@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/style_page.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link rel="icon" href="img/fav.ico" type="image/x-icon">
 </head>
 <body>
 <#include 'common/header.ftl'/>

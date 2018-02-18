@@ -32,6 +32,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/css/**").permitAll()
                 .antMatchers("/addServices/**").hasAnyAuthority("ADMIN", "USER")
                 .antMatchers("/js/**").permitAll()
+                .antMatchers("/ionicons/**").permitAll()
+                .antMatchers("/img/**").permitAll()
+                .antMatchers("/css/**").permitAll()
+                .antMatchers("/html/**").permitAll()
                 .antMatchers("/profile/**").hasAnyAuthority("USER", "ADMIN") // разрешили админу и пользователям
                 .antMatchers("/users/**").hasAnyAuthority("USER", "ADMIN") // только админу и пользователю
                 .antMatchers("/clients/1").hasAnyAuthority("ADMIN")
@@ -41,7 +45,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .loginPage("/login")
                 .usernameParameter("email")
                 .passwordParameter("password")
-                .defaultSuccessUrl("/profile")
+               .defaultSuccessUrl("/profile")
                 .failureUrl("/login?error=true")
                 .permitAll()
                 .and()
@@ -54,6 +58,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .tokenValiditySeconds(86400)
                 .and()
                 .csrf().disable();
+
     }
     @Bean
     public PersistentTokenRepository persistentTokenRepository() {

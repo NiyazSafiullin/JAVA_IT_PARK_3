@@ -9,5 +9,6 @@ public interface EmployeeService {
     String EmployeesForm(EmployeesForm form);
 
 List<Employee> getEmployees(String orderBy);
+    void deleteEmployees(Long employeeId);
 
 }

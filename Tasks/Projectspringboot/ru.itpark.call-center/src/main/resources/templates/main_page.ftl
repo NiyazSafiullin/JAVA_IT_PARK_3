@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<#ftl encoding='UTF-8'>
+<#import 'spring.ftl' as spring>
+<@spring.bind "model"/>
+<#--<!DOCTYPE html>-->
 <html lang="en">
 
 <head>
@@ -7,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Электронный портал регистрация заявок</title>
-    <#--<link rel="icon" href="img/fav.png" type="image/x-icon">-->
+    <link rel="icon" href="img/fav.ico" type="image/x-icon">
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -60,14 +63,14 @@
     <!-- nav -->
     <nav>
         <ul class="box-primary-nav">
-            <#--<li class="box-label">About me</li>-->
+        <#--<li class="box-label">About me</li>-->
 
             <li><a href="/">Главная</a> <i class="ion-ios-circle-filled color"></i></li>
             <li><a href="/profile">Личный кабинет</a></li>
             <li><a href="/Employees?order_by">Сотрудники организации</a></li>
 
             <li><a href="contact.html">Контакты</a></li>
-                <li><a href="/logout">Выход</a></li>
+            <li><a href="/logout">Выход</a></li>
 
 
 
@@ -103,171 +106,171 @@
 
 <!-- portfolio div -->
 <#--<div class="portfolio-div">-->
-    <#--<div class="portfolio">-->
-        <#--<div class="no-padding portfolio_container">-->
-            <#--<!-- single work &ndash;&gt;-->
-            <#--<div class="col-md-3 col-sm-6  fashion logo">-->
-                <#--<a href="single-project.html" class="portfolio_item">-->
-                    <#--<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />-->
-                    <#--<div class="portfolio_item_hover">-->
-                        <#--<div class="portfolio-border clearfix">-->
-                            <#--<div class="item_info">-->
-                                <#--<span>Mockups in seconds</span>-->
-                                <#--<em>Fashion / Logo</em>-->
-                            <#--</div>-->
-                        <#--</div>-->
-                    <#--</div>-->
-                <#--</a>-->
-            <#--</div>-->
-            <!-- end single work -->
+<#--<div class="portfolio">-->
+<#--<div class="no-padding portfolio_container">-->
+<#--<!-- single work &ndash;&gt;-->
+<#--<div class="col-md-3 col-sm-6  fashion logo">-->
+<#--<a href="single-project.html" class="portfolio_item">-->
+<#--<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />-->
+<#--<div class="portfolio_item_hover">-->
+<#--<div class="portfolio-border clearfix">-->
+<#--<div class="item_info">-->
+<#--<span>Mockups in seconds</span>-->
+<#--<em>Fashion / Logo</em>-->
+<#--</div>-->
+<#--</div>-->
+<#--</div>-->
+<#--</a>-->
+<#--</div>-->
+<!-- end single work -->
 
-            <!-- single work -->
-            <#--<div class="col-md-3 col-sm-6 ads graphics">-->
-                <#--<a href="single-project.html" class="portfolio_item">-->
-                    <#--<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />-->
-                    <#--<div class="portfolio_item_hover">-->
-                        <#--<div class="portfolio-border clearfix">-->
-                            <#--<div class="item_info">-->
-                                <#--<span>Floating mockups</span>-->
-                                <#--<em>Ads / Graphics</em>-->
-                            <#--</div>-->
-                        <#--</div>-->
-                    <#--</div>-->
-                <#--</a>-->
-            <#--</div>-->
-            <!-- end single work -->
+<!-- single work -->
+<#--<div class="col-md-3 col-sm-6 ads graphics">-->
+<#--<a href="single-project.html" class="portfolio_item">-->
+<#--<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />-->
+<#--<div class="portfolio_item_hover">-->
+<#--<div class="portfolio-border clearfix">-->
+<#--<div class="item_info">-->
+<#--<span>Floating mockups</span>-->
+<#--<em>Ads / Graphics</em>-->
+<#--</div>-->
+<#--</div>-->
+<#--</div>-->
+<#--</a>-->
+<#--</div>-->
+<!-- end single work -->
 
-            <!-- single work -->
-            <#--<div class="col-md-6 col-sm-12 photography">-->
-                <#--<a href="single-project.html" class="portfolio_item">-->
-                    <#--<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />-->
-                    <#--<div class="portfolio_item_hover">-->
-                        <#--<div class="portfolio-border clearfix">-->
-                            <#--<div class="item_info">-->
-                                <#--<span>Photorealistic smartwatch</span>-->
-                                <#--<em>Photography</em>-->
-                            <#--</div>-->
-                        <#--</div>-->
-                    <#--</div>-->
-                <#--</a>-->
-            <#--</div>-->
-            <!-- end single work -->
+<!-- single work -->
+<#--<div class="col-md-6 col-sm-12 photography">-->
+<#--<a href="single-project.html" class="portfolio_item">-->
+<#--<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />-->
+<#--<div class="portfolio_item_hover">-->
+<#--<div class="portfolio-border clearfix">-->
+<#--<div class="item_info">-->
+<#--<span>Photorealistic smartwatch</span>-->
+<#--<em>Photography</em>-->
+<#--</div>-->
+<#--</div>-->
+<#--</div>-->
+<#--</a>-->
+<#--</div>-->
+<!-- end single work -->
 
-            <!-- single work -->
-            <#--<div class="col-md-3 col-sm-6 fashion ads">-->
-                <#--<a href="single-project.html" class="portfolio_item">-->
-                    <#--<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />-->
-                    <#--<div class="portfolio_item_hover">-->
-                        <#--<div class="portfolio-border clearfix">-->
-                            <#--<div class="item_info">-->
-                                <#--<span>Held by hands</span>-->
-                                <#--<em>Fashion / Ads</em>-->
-                            <#--</div>-->
-                        <#--</div>-->
-                    <#--</div>-->
-                <#--</a>-->
-            <#--</div>-->
-            <!-- end single work -->
+<!-- single work -->
+<#--<div class="col-md-3 col-sm-6 fashion ads">-->
+<#--<a href="single-project.html" class="portfolio_item">-->
+<#--<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />-->
+<#--<div class="portfolio_item_hover">-->
+<#--<div class="portfolio-border clearfix">-->
+<#--<div class="item_info">-->
+<#--<span>Held by hands</span>-->
+<#--<em>Fashion / Ads</em>-->
+<#--</div>-->
+<#--</div>-->
+<#--</div>-->
+<#--</a>-->
+<#--</div>-->
+<!-- end single work -->
 
-            <!-- single work -->
-            <#--<div class="col-md-3 col-sm-6 graphics ads">-->
-                <#--<a href="single-project.html" class="portfolio_item">-->
-                    <#--<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />-->
-                    <#--<div class="portfolio_item_hover">-->
-                        <#--<div class="portfolio-border clearfix">-->
-                            <#--<div class="item_info">-->
-                                <#--<span>Mobile devices</span>-->
-                                <#--<em>Graphics / Ads</em>-->
-                            <#--</div>-->
-                        <#--</div>-->
-                    <#--</div>-->
-                <#--</a>-->
-            <#--</div>-->
-            <!-- end single work -->
+<!-- single work -->
+<#--<div class="col-md-3 col-sm-6 graphics ads">-->
+<#--<a href="single-project.html" class="portfolio_item">-->
+<#--<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />-->
+<#--<div class="portfolio_item_hover">-->
+<#--<div class="portfolio-border clearfix">-->
+<#--<div class="item_info">-->
+<#--<span>Mobile devices</span>-->
+<#--<em>Graphics / Ads</em>-->
+<#--</div>-->
+<#--</div>-->
+<#--</div>-->
+<#--</a>-->
+<#--</div>-->
+<!-- end single work -->
 
-            <!-- single work -->
-            <#--<div class="col-md-6 col-sm-12 photography">-->
-                <#--<a href="single-project.html" class="portfolio_item">-->
-                    <#--<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />-->
-                    <#--<div class="portfolio_item_hover">-->
-                        <#--<div class="portfolio-border clearfix">-->
-                            <#--<div class="item_info">-->
-                                <#--<span>Photorealistic smartwatch</span>-->
-                                <#--<em>Photography</em>-->
-                            <#--</div>-->
-                        <#--</div>-->
-                    <#--</div>-->
-                <#--</a>-->
-            <#--</div>-->
-            <!-- end single work -->
+<!-- single work -->
+<#--<div class="col-md-6 col-sm-12 photography">-->
+<#--<a href="single-project.html" class="portfolio_item">-->
+<#--<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />-->
+<#--<div class="portfolio_item_hover">-->
+<#--<div class="portfolio-border clearfix">-->
+<#--<div class="item_info">-->
+<#--<span>Photorealistic smartwatch</span>-->
+<#--<em>Photography</em>-->
+<#--</div>-->
+<#--</div>-->
+<#--</div>-->
+<#--</a>-->
+<#--</div>-->
+<!-- end single work -->
 
-            <!-- single work -->
-            <#--<div class="col-md-3 col-sm-6 graphics ads">-->
-                <#--<a href="single-project.html" class="portfolio_item">-->
-                    <#--<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />-->
-                    <#--<div class="portfolio_item_hover">-->
-                        <#--<div class="portfolio-border clearfix">-->
-                            <#--<div class="item_info">-->
-                                <#--<span>Mobile devices</span>-->
-                                <#--<em>Graphics / Ads</em>-->
-                            <#--</div>-->
-                        <#--</div>-->
-                    <#--</div>-->
-                <#--</a>-->
-            <#--</div>-->
-            <!-- end single work -->
+<!-- single work -->
+<#--<div class="col-md-3 col-sm-6 graphics ads">-->
+<#--<a href="single-project.html" class="portfolio_item">-->
+<#--<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />-->
+<#--<div class="portfolio_item_hover">-->
+<#--<div class="portfolio-border clearfix">-->
+<#--<div class="item_info">-->
+<#--<span>Mobile devices</span>-->
+<#--<em>Graphics / Ads</em>-->
+<#--</div>-->
+<#--</div>-->
+<#--</div>-->
+<#--</a>-->
+<#--</div>-->
+<!-- end single work -->
 
-            <!-- single work -->
-            <#--<div class="col-md-3 col-sm-6 graphics ads">-->
-                <#--<a href="single-project.html" class="portfolio_item">-->
-                    <#--<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />-->
-                    <#--<div class="portfolio_item_hover">-->
-                        <#--<div class="portfolio-border clearfix">-->
-                            <#--<div class="item_info">-->
-                                <#--<span>Mobile devices</span>-->
-                                <#--<em>Graphics / Ads</em>-->
-                            <#--</div>-->
-                        <#--</div>-->
-                    <#--</div>-->
-                <#--</a>-->
-            <#--</div>-->
-            <!-- end single work -->
+<!-- single work -->
+<#--<div class="col-md-3 col-sm-6 graphics ads">-->
+<#--<a href="single-project.html" class="portfolio_item">-->
+<#--<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />-->
+<#--<div class="portfolio_item_hover">-->
+<#--<div class="portfolio-border clearfix">-->
+<#--<div class="item_info">-->
+<#--<span>Mobile devices</span>-->
+<#--<em>Graphics / Ads</em>-->
+<#--</div>-->
+<#--</div>-->
+<#--</div>-->
+<#--</a>-->
+<#--</div>-->
+<!-- end single work -->
 
-            <!-- single work -->
-            <#--<div class="col-md-3 col-sm-6 graphics ads">-->
-                <#--<a href="single-project.html" class="portfolio_item">-->
-                    <#--<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />-->
-                    <#--<div class="portfolio_item_hover">-->
-                        <#--<div class="portfolio-border clearfix">-->
-                            <#--<div class="item_info">-->
-                                <#--<span>Mobile devices</span>-->
-                                <#--<em>Graphics / Ads</em>-->
-                            <#--</div>-->
-                        <#--</div>-->
-                    <#--</div>-->
-                <#--</a>-->
-            <#--</div>-->
-            <!-- end single work -->
+<!-- single work -->
+<#--<div class="col-md-3 col-sm-6 graphics ads">-->
+<#--<a href="single-project.html" class="portfolio_item">-->
+<#--<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />-->
+<#--<div class="portfolio_item_hover">-->
+<#--<div class="portfolio-border clearfix">-->
+<#--<div class="item_info">-->
+<#--<span>Mobile devices</span>-->
+<#--<em>Graphics / Ads</em>-->
+<#--</div>-->
+<#--</div>-->
+<#--</div>-->
+<#--</a>-->
+<#--</div>-->
+<!-- end single work -->
 
-            <!-- single work -->
-            <#--<div class="col-md-3 col-sm-6 graphics ads">-->
-                <#--<a href="single-project.html" class="portfolio_item">-->
-                    <#--<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />-->
-                    <#--<div class="portfolio_item_hover">-->
-                        <#--<div class="portfolio-border clearfix">-->
-                            <#--<div class="item_info">-->
-                                <#--<span>Mobile devices</span>-->
-                                <#--<em>Graphics / Ads</em>-->
-                            <#--</div>-->
-                        <#--</div>-->
-                    <#--</div>-->
-                <#--</a>-->
-            <#--</div>-->
-            <!-- end single work -->
-        <#--</div>-->
-        <#--<!-- end portfolio_container &ndash;&gt;-->
-    <#--</div>-->
-    <#--<!-- portfolio &ndash;&gt;-->
+<!-- single work -->
+<#--<div class="col-md-3 col-sm-6 graphics ads">-->
+<#--<a href="single-project.html" class="portfolio_item">-->
+<#--<img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />-->
+<#--<div class="portfolio_item_hover">-->
+<#--<div class="portfolio-border clearfix">-->
+<#--<div class="item_info">-->
+<#--<span>Mobile devices</span>-->
+<#--<em>Graphics / Ads</em>-->
+<#--</div>-->
+<#--</div>-->
+<#--</div>-->
+<#--</a>-->
+<#--</div>-->
+<!-- end single work -->
+<#--</div>-->
+<#--<!-- end portfolio_container &ndash;&gt;-->
+<#--</div>-->
+<#--<!-- portfolio &ndash;&gt;-->
 <#--</div>-->
 <#--<!-- end portfolio div &ndash;&gt;-->
 

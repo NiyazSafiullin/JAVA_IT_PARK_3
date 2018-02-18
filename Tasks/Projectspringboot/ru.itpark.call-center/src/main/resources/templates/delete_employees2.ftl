@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/css/style_page.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link rel="icon" href="img/fav.png" type="image/x-icon">
 </head>
 <body>
 <div class="container">
@@ -13,14 +14,12 @@
     <#include 'common/header.ftl'/>
         <form class="form-style-4" title="Регистрация в системе получения услуг"
               name="EmployeesForm"
-              method="post"
+              method="get"
               action="/deleteEmployees">
 
-            <input type="text" name="name" placeholder="Имя" required/ >
+            <input type="text" name="id" placeholder="Номер сотрудника" required/ >
             <br>
-            <input type="text" name="surname" placeholder="Фамилия" required/>
-            <br>
-            <input type="text" name="position" placeholder="Должность"/>
+
 
             <p><input type="submit" value="Удалить"/> </p>
             <p style="text-align: center"><a style="color:#000000" href="/profile">Вернуться в личный кабинет</a></p>

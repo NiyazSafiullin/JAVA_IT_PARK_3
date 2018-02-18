@@ -9,6 +9,7 @@
     <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Просмотр пользователя</title>
+    <link rel="icon" href="img/fav.ico" type="image/x-icon">
 </head>
 <body>
 

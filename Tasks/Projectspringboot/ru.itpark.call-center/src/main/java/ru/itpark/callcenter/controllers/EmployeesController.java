@@ -46,7 +46,10 @@ public class EmployeesController {
         return "add_employees2";
     }
 
-
+    @GetMapping("/addEmployeeszayavka")
+    public String addEmployeezayavka() {
+        return "add_employeeszayavka";
+    }
 
     @GetMapping("/deleteEmployees")
     public String deleteEmployee() {
