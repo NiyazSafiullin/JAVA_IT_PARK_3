@@ -1,1 +1,4 @@
-INSERT INTO public.employees (id, surname, name, position, registration_time) VALUES (1, 'sa', 'as', 1, null);
+UPDATE public.employees SET name = 'Alex', position = 'Уборщик', surname = 'Smirnov', employeeid = null, number = null, registration_time = null WHERE id = 22;
+UPDATE public.employees SET name = 'James', position = 'водитель', surname = 'Tomson', employeeid = null, number = null, registration_time = null WHERE id = 21;
+UPDATE public.employees SET name = 'Maks', position = 'Программист', surname = 'Ivanov', employeeid = null, number = null, registration_time = null WHERE id = 23;
+UPDATE public.employees SET name = 'Alex', position = 'инженер', surname = 'Sergeev', employeeid = null, number = null, registration_time = null WHERE id = 19;

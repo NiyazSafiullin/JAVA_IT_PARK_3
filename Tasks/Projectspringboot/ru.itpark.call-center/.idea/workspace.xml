@@ -2,50 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdf06ace-3306-415d-9504-af0a144c61c8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/add_employeeszayavka.ftl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/main_page.1ftl" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/EmployeesController.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/EmployeesController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/security/config/WebSecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/security/config/WebSecurityConfig.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/EmployeeService.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/EmployeeService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/EmployeeServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/EmployeeServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Employees_page.ftl" afterPath="$PROJECT_DIR$/src/main/resources/templates/Employees_page.ftl" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/add_employees.ftl" afterPath="$PROJECT_DIR$/src/main/resources/templates/add_employees.ftl" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/add_employees2.ftl" afterPath="$PROJECT_DIR$/src/main/resources/templates/add_employees2.ftl" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/add_eservice.ftl" afterPath="$PROJECT_DIR$/src/main/resources/templates/add_eservice.ftl" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/add_eservice2.ftl" afterPath="$PROJECT_DIR$/src/main/resources/templates/add_eservice2.ftl" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/add_services2.ftl" afterPath="$PROJECT_DIR$/src/main/resources/templates/add_services2.ftl" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/add_servicesid.ftl" afterPath="$PROJECT_DIR$/src/main/resources/templates/add_servicesid.ftl" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/delete_employees2.ftl" afterPath="$PROJECT_DIR$/src/main/resources/templates/delete_employees2.ftl" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.ftl" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.ftl" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main_contact.ftl" afterPath="$PROJECT_DIR$/src/main/resources/templates/main_contact.ftl" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main_employees.ftl" afterPath="$PROJECT_DIR$/src/main/resources/templates/main_employees.ftl" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main_page.ftl" afterPath="$PROJECT_DIR$/src/main/resources/templates/main_page.ftl" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/profile.ftl" afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.ftl" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user_page.ftl" afterPath="$PROJECT_DIR$/src/main/resources/templates/user_page.ftl" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users_page.ftl" afterPath="$PROJECT_DIR$/src/main/resources/templates/users_page.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/controllers/EmployeesController.class" afterPath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/controllers/EmployeesController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/security/config/WebSecurityConfig.class" afterPath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/security/config/WebSecurityConfig.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/services/EmployeeService.class" afterPath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/services/EmployeeService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/services/EmployeeServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/ru/itpark/callcenter/services/EmployeeServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/Employees_page.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/Employees_page.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/add_employees.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/add_employees.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/add_employees2.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/add_employees2.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/add_eservice.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/add_eservice.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/add_eservice2.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/add_eservice2.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/add_services2.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/add_services2.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/add_servicesid.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/add_servicesid.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/delete_employees2.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/delete_employees2.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/login.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/main.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main_contact.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/main_contact.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main_employees.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/main_employees.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main_page.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/main_page.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/profile.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/profile.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/user_page.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/user_page.ftl" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/users_page.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/users_page.ftl" />
+      <change beforePath="$PROJECT_DIR$/safiullin_db_public_clients.sql" afterPath="$PROJECT_DIR$/safiullin_db_public_clients.sql" />
+      <change beforePath="$PROJECT_DIR$/safiullin_db_public_employees.sql" afterPath="$PROJECT_DIR$/safiullin_db_public_employees.sql" />
+      <change beforePath="$PROJECT_DIR$/safiullin_db_public_services.sql" afterPath="$PROJECT_DIR$/safiullin_db_public_services.sql" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -75,27 +35,6 @@
         <item name="safiullin_db@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="safiullin_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="safiullin_db: database" type="6d9b600a:PostgresImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="safiullin_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="safiullin_db: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="safiullin_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="safiullin_db: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
     </expand>
     <select />
   </component>
@@ -107,7 +46,7 @@
       <file leaf-file-name="EServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/EServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="325">
               <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
@@ -117,7 +56,7 @@
       <file leaf-file-name="user_page.ftl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user_page.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="275">
               <caret line="11" column="60" lean-forward="false" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
               <folding />
             </state>
@@ -127,7 +66,7 @@
       <file leaf-file-name="users_page.ftl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/users_page.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-245">
+            <state relative-caret-position="250">
               <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
               <folding />
             </state>
@@ -157,7 +96,7 @@
       <file leaf-file-name="style_page.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/style_page.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
+            <state relative-caret-position="575">
               <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="22" />
               <folding />
             </state>
@@ -167,7 +106,7 @@
       <file leaf-file-name="EServiceController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/EServiceController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
+            <state relative-caret-position="100">
               <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding />
             </state>
@@ -177,8 +116,8 @@
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="30" />
+            <state relative-caret-position="90">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -187,8 +126,8 @@
       <file leaf-file-name="ServicesController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/ServicesController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="550">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding>
                 <element signature="e#1335#1375#0" expanded="false" />
               </folding>
@@ -331,7 +270,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="221" />
     <option name="width" value="1488" />
     <option name="height" value="1030" />
@@ -379,7 +318,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -537,8 +475,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -769,28 +708,27 @@
       <workItem from="1518602212306" duration="37000" />
       <workItem from="1518602570950" duration="42730000" />
       <workItem from="1518759909834" duration="22556000" />
+      <workItem from="1518986612061" duration="146000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="489518000" />
+    <option name="totallyTimeSpent" value="489664000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30375427" sideWeight="0.521875" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.116145834" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.116145834" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24921136" sideWeight="0.48815167" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.4864865" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -810,6 +748,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.4864865" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29579067" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -872,7 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -896,7 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -904,7 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-97">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -917,7 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -925,7 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -933,7 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -941,7 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -949,7 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="8" column="60" lean-forward="false" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -957,7 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="60" lean-forward="false" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -965,7 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="60" lean-forward="false" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -973,7 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -988,7 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
           <caret line="23" column="72" lean-forward="false" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1010,9 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="60" />
-          <folding>
-            <marker date="1518778578490" expanded="true" signature="4247:5027" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1020,9 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1050">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1030,9 +951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1040,9 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1050,7 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3300">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1074,7 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1089,10 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="50" column="25" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-          <folding>
-            <marker date="1518781183566" expanded="true" signature="463:1799" ph="..." />
-            <marker date="1518781183566" expanded="false" signature="1712:1730" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1100,7 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-300">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1108,7 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1116,7 +1023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1132,7 +1038,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
           <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1148,9 +1053,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <marker date="1518795865948" expanded="true" signature="458:515" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1158,7 +1060,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1575">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1166,7 +1067,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-941">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1174,7 +1074,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1182,7 +1081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1190,7 +1088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="17" column="30" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="17" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1198,13 +1095,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/services/EServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="325">
           <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
@@ -1212,7 +1108,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user_page.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="275">
           <caret line="11" column="60" lean-forward="false" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
           <folding />
         </state>
@@ -1220,7 +1116,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/users_page.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-245">
+        <state relative-caret-position="250">
           <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
           <folding />
         </state>
@@ -1244,7 +1140,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/style_page.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
+        <state relative-caret-position="575">
           <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="22" />
           <folding />
         </state>
@@ -1252,8 +1148,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/ServicesController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="550">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding>
             <element signature="e#1335#1375#0" expanded="false" />
           </folding>
@@ -1262,7 +1158,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itpark/callcenter/controllers/EServiceController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
+        <state relative-caret-position="100">
           <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
         </state>
@@ -1272,14 +1168,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="30" />
+        <state relative-caret-position="90">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="30" />
           <folding />
         </state>
       </provider>

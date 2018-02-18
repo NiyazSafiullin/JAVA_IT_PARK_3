@@ -1,1 +1,16 @@
-INSERT INTO public.services (id, type, time_of_processing, result) VALUES (1, 'sad', '1', '1');
+UPDATE public.services SET category = 'назначен сотрудник', expired_date = null, name = 'Доставка еды', result = '65', type = null, serviceid = null, number = null, registration_time = null WHERE id = 26;
+UPDATE public.services SET category = 'заказ принята', expired_date = null, name = 'вызов врача', result = '66', type = null, serviceid = null, number = null, registration_time = null WHERE id = 27;
+UPDATE public.services SET category = 'назначен сотрудник', expired_date = null, name = 'Уборка снега', result = '59', type = null, serviceid = null, number = null, registration_time = null WHERE id = 22;
+UPDATE public.services SET category = 'выполнено', expired_date = null, name = 'Такси', result = '62', type = null, serviceid = null, number = null, registration_time = null WHERE id = 16;
+UPDATE public.services SET category = 'назначен сотрудник', expired_date = null, name = 'Обработка запроса', result = '63', type = null, serviceid = null, number = null, registration_time = null WHERE id = 24;
+UPDATE public.services SET category = 'выполнено', expired_date = null, name = 'служба такси', result = '55', type = null, serviceid = null, number = null, registration_time = null WHERE id = 15;
+UPDATE public.services SET category = 'заказ принят', expired_date = null, name = 'Такси', result = '58', type = null, serviceid = null, number = null, registration_time = null WHERE id = 21;
+UPDATE public.services SET category = 'сотрудник отправлен', expired_date = null, name = 'Выезд инженера', result = '60', type = null, serviceid = null, number = null, registration_time = null WHERE id = 23;
+UPDATE public.services SET category = 'сотрудник отправлен', expired_date = null, name = 'Поликлиника', result = '61', type = null, serviceid = null, number = null, registration_time = null WHERE id = 12;
+UPDATE public.services SET category = 'выполнено', expired_date = null, name = 'такси', result = '52', type = null, serviceid = null, number = 1, registration_time = null WHERE id = 11;
+UPDATE public.services SET category = 'выполнено', expired_date = null, name = 'служба такси', result = '54', type = null, serviceid = null, number = null, registration_time = null WHERE id = 14;
+UPDATE public.services SET category = 'назначен сотрудник', expired_date = null, name = 'Звонок домой', result = '56', type = null, serviceid = null, number = null, registration_time = null WHERE id = 19;
+UPDATE public.services SET category = 'выполнено', expired_date = null, name = 'Охрана', result = '53', type = null, serviceid = null, number = null, registration_time = null WHERE id = 13;
+UPDATE public.services SET category = 'назначен сотрудник', expired_date = null, name = 'Звонок другу', result = '57', type = null, serviceid = null, number = null, registration_time = null WHERE id = 20;
+UPDATE public.services SET category = 'назначен сотрудник', expired_date = null, name = 'Обработка запроса', result = '64', type = null, serviceid = null, number = null, registration_time = null WHERE id = 64;
+UPDATE public.services SET category = 'назначен сотрудник', expired_date = null, name = 'Вызов сантехника', result = '67', type = null, serviceid = null, number = null, registration_time = null WHERE id = 28;
