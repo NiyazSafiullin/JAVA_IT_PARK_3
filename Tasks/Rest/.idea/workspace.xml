@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5f1f86f7-6b62-475a-ad78-aeaa60b4a196" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Projectspringboot/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projectspringboot/.idea/Projectspringboot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projectspringboot/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projectspringboot/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projectspringboot/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projectspringboot/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projectspringboot/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projectspringboot/Java Test/src/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/META-INF/unnamed.war" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\adminzeon\JAVA_IT_PARK_3\Tasks\Rest\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Ui2qV0f4xgEO8I2YYNPFxTDLlW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f1f86f7-6b62-475a-ad78-aeaa60b4a196" name="Default Changelist" comment="" />
+      <created>1575825285457</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575825285457</updated>
+      <workItem from="1575825286704" duration="81000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

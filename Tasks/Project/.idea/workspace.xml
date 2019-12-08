@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="unnamed" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4d596e23-c65d-4386-a27c-0429adb56ab8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projectspringboot/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projectspringboot/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projectspringboot/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projectspringboot/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projectspringboot/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/target.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/dataSources/22a825d6-4919-4678-a99a-b4b25330d30b/storage_v2/_src_/database/safiullin_db.1Jgajg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/dataSources/22a825d6-4919-4678-a99a-b4b25330d30b/storage_v2/_src_/database/safiullin_db.1Jgajg/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/dataSources/52d5c947-1b9c-4d7d-9bc8-aede1f3bbd90/storage_v2/_src_/database/safiullin_db.1Jgajg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/dataSources/52d5c947-1b9c-4d7d-9bc8-aede1f3bbd90/storage_v2/_src_/database/safiullin_db.1Jgajg/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/dataSources/54d08e4b-a1a5-419f-a8ff-bc426d91a2ab/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/dataSources/54d08e4b-a1a5-419f-a8ff-bc426d91a2ab/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/dataSources/aecac24c-5b77-4b97-b908-da8855442cdd/storage_v2/_src_/database/safiullin_db.1Jgajg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/dataSources/aecac24c-5b77-4b97-b908-da8855442cdd/storage_v2/_src_/database/safiullin_db.1Jgajg/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/dataSources/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19/storage_v2/_src_/database/safiullin_db.1Jgajg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/dataSources/b8dc2c85-de8f-4c6f-928f-ee9dd0b85d19/storage_v2/_src_/database/safiullin_db.1Jgajg/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/dataSources/ee3fe5d3-8aa4-4103-a962-e4ef13a2ea76.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/dataSources/ee3fe5d3-8aa4-4103-a962-e4ef13a2ea76/storage_v2/_src_/database/safiullin_db.1Jgajg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/dataSources/ee3fe5d3-8aa4-4103-a962-e4ef13a2ea76/storage_v2/_src_/database/safiullin_db.1Jgajg/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_6_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_freemarker_freemarker_2_3_27_incubating.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_12_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_2_12_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_postgresql_postgresql_42_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_5_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_5_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_1_5_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_5_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_11_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_spring_aop_4_3_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_spring_beans_4_3_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_spring_context_4_3_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_spring_core_4_3_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_spring_expression_4_3_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_spring_orm_4_3_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_spring_tx_4_3_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_spring_web_4_3_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/src/main/java/ru/itpark/callcenter/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/forms/EServiceForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/forms/EServiceForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/forms/EmployeesForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/forms/EmployeesForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/forms/MainForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/forms/MainForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/forms/NamesForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/forms/NamesForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/forms/RegistrationForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/forms/RegistrationForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/forms/RegistrationServicesForms.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/forms/RegistrationServicesForms.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/models/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/models/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/models/Eservice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/models/Eservice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/models/Services.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/models/Services.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/EServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/EServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/EmployeeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/RegistrationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/RegistrationServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/RegistrationServicesImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/RegistrationServicesImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/ServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/ServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/UsersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/ru/itpark/callcenter/services/UsersServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/templates/profile.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../Projectspringboot/ru.itpark.call-center/target/classes/templates/profile.ftl" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\adminzeon\JAVA_IT_PARK_3\Tasks\Project\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1TsRzP7IKERf5MFQR4rPJNosqLC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.47" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.47" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:/Program Files/Java/jdk-13.0.1" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="unnamed">
+          <settings>
+            <option name="CONTEXT_PATH" value="/unnamed" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Project" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60365" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="unnamed" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d596e23-c65d-4386-a27c-0429adb56ab8" name="Default Changelist" comment="" />
+      <created>1574247077825</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574247077825</updated>
+      <workItem from="1574247078966" duration="1659000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
