@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ru.itpark.call-center:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ru.itpark.call-center</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="spring-boot.war">
+      <element id="artifact" artifact-name="ru.itpark.call-center:war exploded" />
+    </root>
+  </artifact>
+</component>

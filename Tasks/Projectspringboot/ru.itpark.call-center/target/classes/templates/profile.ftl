@@ -22,7 +22,7 @@
         <button type="button" class="btn btn-primary btn-lg"><a href="/addServices">Обработать заявку</a></button>
         <button type="button" class="btn btn-primary btn-lg"><a href="/addEmployeeszayavka">Назначить сотрудника на заявку</a></button>
         <button type="button" class="btn btn-primary btn-lg"><a href="/addEmployees">Добавить сотрудника</a></button>
-        
+
         <button type="button" class="btn btn-primary btn-lg"><a href="/Employees?order_by">Посмотреть всех сотрудников</a></button>
         <button type="button" class="btn btn-primary btn-lg"><a href="/eservices?order_by">Посмотреть новые заявки</a></button>
             <button type="button" class="btn btn-primary btn-lg"><a href="/users?order_by">Посмотреть всеx пользователей системы</a></button>
